@@ -1,0 +1,2685 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* flota
+# 
+# Translators:
+# Wil Odoo, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-25 08:39+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Wil Odoo, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/odoo/teams/41243/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: es\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_kanban
+msgid "<i class=\"fa fa-map-marker\" title=\"Location\"/>"
+msgstr "<i class=\"fa fa-map-marker\" title=\"Location\"/>"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+msgid ""
+"<span class=\"o_stat_value\">New</span>\n"
+"                                <span class=\"o_stat_text\">Impresora</span>"
+msgstr ""
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.res_config_settings_view_form
+msgid "<span> days before the end date</span>"
+msgstr "<span> días antes de la fecha de finalización</span>"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.res_config_settings_view_form
+msgid "<span>Send an alert </span>"
+msgstr "<span>Enviar una alerta</span>"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "<span>cm</span>"
+msgstr "<span>cm</span>"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "<span>g/km</span>"
+msgstr "<span>g/km</span>"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "<span>kW</span>"
+msgstr "<span>kW</span>"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "<span>km</span>"
+msgstr "<span>km</span>"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_1
+msgid "A/C Compressor Replacement"
+msgstr "Reemplazo de compresor de A/A"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_2
+msgid "A/C Condenser Replacement"
+msgstr "Reemplazo de condensador de A/A"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_3
+msgid "A/C Diagnosis"
+msgstr "Diagnóstico del A/A"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_4
+msgid "A/C Evaporator Replacement"
+msgstr "Reemplazo del evaporador de A/A"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_5
+msgid "A/C Recharge"
+msgstr "Recarga de A/A"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__message_needaction
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__message_needaction
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__message_needaction
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__message_needaction
+msgid "Action Needed"
+msgstr "Acción requerida"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_form
+msgid "Activation Cost"
+msgstr "Coste de activación"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__active
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__active
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__active
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__active
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_ids
+msgid "Activities"
+msgstr "Actividades"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_exception_decoration
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_exception_decoration
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_exception_decoration
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Decoración de Actividad de Excepción"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_state
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_state
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_state
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_state
+msgid "Activity State"
+msgstr "Estado de la actividad"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_type_icon
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_type_icon
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_type_icon
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Icono de tipo de actividad"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.mail_activity_type_action_config_flota
+#: model:ir.ui.menu,name:flota.flota_menu_config_activity_type
+msgid "Activity Types"
+msgstr "Tipos de actividad"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_tag_action
+msgid "Add a new tag"
+msgstr "Agregar una nueva etiqueta"
+
+#. module: flota
+#: model:res.groups,name:flota.flota_group_manager
+msgid "Administrator"
+msgstr "Administrador"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_6
+msgid "Air Filter Replacement"
+msgstr "Reemplazo del filtro de aire"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "All impresoras"
+msgstr "Todos las impresoras"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Apply New Driver"
+msgstr "Aplicar un nuevo conductor"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_kanban
+msgid "Archive"
+msgstr "Archivar"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Archived"
+msgstr "Archivado"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__next_assignation_date
+msgid "Assignment Date"
+msgstr "Fecha de asignación"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__log_drivers
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_assignation_log_view_list
+msgid "Assignment Logs"
+msgstr "Registros de asignación"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_8
+msgid "Assistance"
+msgstr "Asistencia"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__message_attachment_count
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__message_attachment_count
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__message_attachment_count
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__message_attachment_count
+msgid "Attachment Count"
+msgstr "Número de archivos adjuntos"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__attachment_ids
+msgid "Attachments"
+msgstr "Archivos adjuntos"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_kanban
+msgid "Attention: renewal overdue"
+msgstr "Atención: renovación vencida"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__author_id
+msgid "Author"
+msgstr "Autor"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__transmission__automatic
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__transmission__automatic
+msgid "Automatic"
+msgstr "Automático"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Available"
+msgstr "Disponible"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__avatar_1920
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__avatar_1920
+msgid "Avatar"
+msgstr "Avatar"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__avatar_1024
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__avatar_1024
+msgid "Avatar 1024"
+msgstr "Avatar 1024"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__avatar_128
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__avatar_128
+msgid "Avatar 128"
+msgstr "Avatar 128"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__avatar_256
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__avatar_256
+msgid "Avatar 256"
+msgstr "Avatar 256"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__avatar_512
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__avatar_512
+msgid "Avatar 512"
+msgstr "Avatar 512"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_7
+msgid "Ball Joint Replacement"
+msgstr "Reemplazo de la rótula"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_9
+msgid "Battery Inspection"
+msgstr "Inspección de batería"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_10
+msgid "Battery Replacement"
+msgstr "Reemplazo de la batería"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_cost_report__impresora_type__bike
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__impresora_type__bike
+msgid "Bike"
+msgstr "Bicicleta"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__frame_type
+msgid "Bike Frame Type"
+msgstr "Tipo de cuadro de bicicleta"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Bikes"
+msgstr "Bicicletas"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__body_has_template_value
+msgid "Body content is the same as the template"
+msgstr "El contenido del cuerpo es igual al de la plantilla"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_11
+msgid "Brake Caliper Replacement"
+msgstr "Reemplazo del cáliper de freno"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_12
+msgid "Brake Inspection"
+msgstr "Inspección de frenos"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_13
+msgid "Brake Pad(s) Replacement"
+msgstr "Reemplazo de la(s) pastilla(s) de freno"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__brand_id
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Brand"
+msgstr "Marca"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_model_brand
+msgid "Brand of the impresora"
+msgstr "Marca de la impresora"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__fuel_type__cng
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__default_fuel_type__cng
+msgid "CNG"
+msgstr "GNC"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__co2
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__default_co2
+msgid "CO2 Emissions"
+msgstr "Emisiones de CO2"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_tree
+msgid "CO2 Emissions g/km"
+msgstr "Emisiones de CO2 g/km"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__co2_standard
+msgid "CO2 Standard"
+msgstr "Estándar de CO₂"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__co2
+msgid "CO2 emissions of the impresora"
+msgstr "Emisiones de CO2 de la impresora"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_1
+msgid "Calculation Benefit In Kind"
+msgstr "Cálculo de las prestaciones en especie"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__can_edit_body
+msgid "Can Edit Body"
+msgstr "Puede editar el cuerpo"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_send_mail_view_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__write_off_date
+msgid "Cancellation Date"
+msgstr "Fecha de cancelación"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_contract__state__closed
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_services__state__cancelled
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_cost_report__impresora_type__car
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__impresora_type__car
+msgid "Car"
+msgstr "Coche"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_14
+msgid "Car Wash"
+msgstr "Lavado de coches"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Cars"
+msgstr "Coches"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__car_value
+msgid "Catalog Value (VAT Incl.)"
+msgstr "Valor de catálogo (IVA incluido)"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_15
+msgid "Catalytic Converter Replacement"
+msgstr "Reemplazo del convertidor catalítico"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_impresora_model_category_action
+#: model:ir.ui.menu,name:flota.flota_impresora_model_category_menu
+msgid "Categories"
+msgstr "Categorías"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_model_category_action
+msgid ""
+"Categories will help you manage your flota more efficiently and arrange your"
+" impresoras."
+msgstr ""
+"Las categorías le ayudarán a gestionar su flota de forma más eficiente y a "
+"organizar sus impresoras."
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_service_type__category
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__category_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__category_id
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_search
+msgid "Category"
+msgstr "Categoría"
+
+#. module: flota
+#: model:ir.model.constraint,message:flota.constraint_flota_impresora_model_category_name_uniq
+msgid "Category name must be unique"
+msgstr "El nombre de la categoría debe ser único"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_model_category
+msgid "Category of the model"
+msgstr "Categoría del modelo"
+
+#. module: flota
+#: model:mail.message.subtype,description:flota.mt_flota_driver_updated
+#: model:mail.message.subtype,name:flota.mt_flota_driver_updated
+msgid "Changed Driver"
+msgstr "Conductor cambiado"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_16
+msgid "Charging System Diagnosis"
+msgstr "Diagnóstico del sistema de carga"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__vin_sn
+msgid "Chassis Number"
+msgstr "Número de bastidor"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__state
+msgid "Choose whether the contract is still valid or not"
+msgstr "Elija si el contrato sigue siendo válido o no"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_service_type__category
+msgid ""
+"Choose whether the service refer to contracts, impresora services or both"
+msgstr ""
+"Elija si el servicio se refiere a contratos, servicios de impresoras o ambos"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__contract_state__closed
+msgid "Closed"
+msgstr "Cerrado"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__co2_standard
+msgid "Co2 Standard"
+msgstr "Estándar de CO2"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__color
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__color
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_tag__color
+msgid "Color"
+msgstr "Color"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__color
+msgid "Color of the impresora"
+msgstr "Color de la impresora"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_send_mail_view_form
+msgid "Communication about your impresora."
+msgstr "Información sobre su impresora."
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__company_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__company_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__company_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: flota
+#: model:ir.model,name:flota.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes de configuración"
+
+#. module: flota
+#: model:ir.ui.menu,name:flota.flota_configuration
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_kanban
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: flota
+#: model:ir.model,name:flota.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_search
+msgid "Contains Impresora"
+msgstr "Contiene impresora"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__body
+msgid "Contents"
+msgstr "Contenidos"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_service_type__category__contract
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_cost_report__cost_type__contract
+#: model_terms:ir.ui.view,arch_db:flota.flota_costs_report_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Contract"
+msgstr "Contrato"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_graph
+msgid "Contract Costs Per Month"
+msgstr "Costes contractuales por mes"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__contract_count
+msgid "Contract Count"
+msgstr "Número de contratos"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__expiration_date
+msgid "Contract Expiration Date"
+msgstr "Fecha de vencimiento del contrato"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__start_date
+msgid "Contract Start Date"
+msgstr "Fecha de inicio del contrato"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_tree
+msgid "Contract logs"
+msgstr "Registros de contratos"
+
+#. module: flota
+#: model:mail.activity.type,name:flota.mail_act_flota_contract_to_renew
+msgid "Contract to Renew"
+msgstr "Contrato a renovar"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_kanban
+msgid "Contract(s)"
+msgstr "Contrato(s)"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_impresora_log_contract_action
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__log_contracts
+#: model:ir.ui.menu,name:flota.flota_impresora_log_contract_menu
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Contracts"
+msgstr "Contratos"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__cost
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__amount
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__amount
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_form
+msgid "Cost"
+msgstr "Coste"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__cost_type
+msgid "Cost Type"
+msgstr "Tipo de coste"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_form
+msgid "Cost that is paid only once at the creation of the contract"
+msgstr "Coste que se paga solo una vez a la creación del contrato"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__cost_subtype_id
+msgid "Cost type purchased with this cost"
+msgstr "Tipo de coste comprado con este coste"
+
+#. module: flota
+#: model:ir.ui.menu,name:flota.menu_flota_reporting_costs
+msgid "Costs"
+msgstr "Costes"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_costs_reporting_action
+msgid "Costs Analysis"
+msgstr "Análisis de costes"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__country_id
+msgid "Country"
+msgstr "País"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__country_code
+msgid "Country Code"
+msgstr "Código de país"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_model_category_action
+msgid "Create a new category"
+msgstr "Crear una nueva categoría"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_log_contract_action
+msgid "Create a new contract"
+msgstr "Crear un nuevo contracto"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_model_brand_action
+msgid "Create a new manufacturer"
+msgstr "Crea un nuevo fabricante"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_model_action
+msgid "Create a new model"
+msgstr "Crear un nuevo modelo"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_odometer_action
+msgid "Create a new odometer log"
+msgstr "Crear un nuevo registro del odómetro"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_log_services_action
+msgid "Create a new service entry"
+msgstr "Crear una nueva entrada de servicio"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_service_types_action
+msgid "Create a new type of service"
+msgstr "Crear un nuevo tipo de servicio"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_state_action
+msgid "Create a new impresora status"
+msgstr "Crear un nuevo estado de impresora"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_service_type__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_category__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_state__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_tag__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_service_type__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_category__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_state__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_tag__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__currency_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__currency_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_assignation_log_view_list
+msgid "Current Driver"
+msgstr "Conductor actual"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__state_id
+msgid "Current state of the impresora"
+msgstr "Estado actual de la impresora"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_contract__cost_frequency__daily
+msgid "Daily"
+msgstr "Diariamente"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__date_start
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__date
+msgid "Date"
+msgstr "Fecha"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__acquisition_date
+msgid "Date of impresora registration"
+msgstr "Fecha de inscripción de la impresora"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__date
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__date
+msgid "Date when the cost has been executed"
+msgstr "Fecha en la que se ha ejecutado el coste"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__start_date
+msgid "Date when the coverage of the contract begins"
+msgstr "Fecha en la que comienza la cobertura del contrato"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__expiration_date
+msgid ""
+"Date when the coverage of the contract expirates (by default, one year after"
+" begin date)"
+msgstr ""
+"Fecha en la que la cobertura de los contratos expira (por defecto, un año "
+"después de la fecha de inicio)"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__write_off_date
+msgid "Date when the impresora's license plate has been cancelled/removed."
+msgstr "Fecha en la que se ha cancelado/eliminado la matrícula de la impresora."
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_res_config_settings__delay_alert_contract
+msgid "Delay alert contract outdated"
+msgstr "Retrasar alerta de contrato obsoleto"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_kanban
+msgid "Delete"
+msgstr "Eliminar"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_2
+msgid "Depreciation and Interests"
+msgstr "Depreciación e intereses"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__frame_type__diamant
+msgid "Diamant"
+msgstr "Diamante"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__fuel_type__diesel
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__default_fuel_type__diesel
+msgid "Diesel"
+msgstr "Diesel"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_service_type__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_category__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_state__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_tag__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_services__state__done
+msgid "Done"
+msgstr "Hecho"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_17
+msgid "Door Window Motor/Regulator Replacement"
+msgstr "Reemplazo del motor/regulador de la ventana de la puerta"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__doors
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__doors
+msgid "Doors Number"
+msgstr "Número de puertas"
+
+#. module: flota
+#: model:flota.impresora.state,name:flota.flota_impresora_state_downgraded
+msgid "Downgraded"
+msgstr "Degradado"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__driver_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__driver_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__driver_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__purchaser_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__purchaser_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__driver_id
+#: model_terms:ir.ui.view,arch_db:flota.flota_costs_report_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Driver"
+msgstr "Conductor"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__driver_id
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__purchaser_id
+#: model:ir.model.fields,help:flota.field_flota_impresora_odometer__driver_id
+msgid "Driver address of the impresora"
+msgstr "Dirección del conductor de la impresora"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Drivers"
+msgstr "Conductores"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Drivers History"
+msgstr "Historial de conductores"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__history_count
+msgid "Drivers History Count"
+msgstr "Número de historiales de conductores"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_assignation_log
+msgid "Drivers history on a impresora"
+msgstr "Historial de conductores en una impresora "
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_log_contract_action
+msgid ""
+"Each contract (e.g.: leasing) may include several services\n"
+"            (reparation, insurances, periodic maintenance)."
+msgstr ""
+"Cada contrato (por ejemplo, leasing) puede incluir varios servicios\n"
+"            (reparación, seguros, mantenimiento periódico)."
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_service_types_action
+msgid "Each service can used in contracts, as a standalone service or both."
+msgstr ""
+"Cada servicio se puede utilizar en los contratos, como un servicio "
+"independiente o ambos."
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__fuel_type__electric
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__default_fuel_type__electric
+msgid "Electric"
+msgstr "Eléctrico"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__electric_assistance
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__electric_assistance
+msgid "Electric Assistance"
+msgstr "Asistencia eléctrica"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_16
+msgid "Emissions"
+msgstr "Emisiones"
+
+#. module: flota
+#: model:flota.impresora.tag,name:flota.impresora_tag_leasing
+msgid "Employee Car"
+msgstr "Impresora del empleado"
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/models/flota_impresora_log_services.py:0
+msgid "Emptying the odometer value of a impresora is not allowed."
+msgstr "No está permitido vaciar el valor del odómetro de una impresora."
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__date_end
+msgid "End Date"
+msgstr "Fecha de finalización"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.res_config_settings_view_form
+msgid "End Date Contract Alert"
+msgstr "Alerta de fecha de finalización del contrato"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Engine"
+msgstr "Motor"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_18
+msgid "Engine Belt Inspection"
+msgstr "Inspección de la correa del motor"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_19
+msgid "Engine Coolant Replacement"
+msgstr "Reemplazo del refrigerante del motor"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_20
+msgid "Engine/Drive Belt(s) Replacement"
+msgstr "Reemplazo de las correas de motor y transmisión"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_12
+msgid "Entry into service tax"
+msgstr "Impuesto de circulación"
+
+#. module: flota
+#. odoo-javascript
+#: code:addons/flota/static/src/js/flota_form.js:0
+msgid ""
+"Every service and contract of this impresora will be considered as archived. "
+"Are you sure that you want to archive this record?"
+msgstr ""
+"Cada servicio y contrato de esta impresora se considerará archivado. ¿Está "
+"seguro de que desea archivar este registro?"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_21
+msgid "Exhaust Manifold Replacement"
+msgstr "Reemplazo del colector de escape"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__contract_state__expired
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_contract__state__expired
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+msgid "Expired"
+msgstr "Vencido"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__expires_today
+msgid "Expires Today"
+msgstr "Vence hoy"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__first_contract_date
+msgid "First Contract Date"
+msgstr "Fecha del primer contrato"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Fiscality"
+msgstr "Fiscalidad"
+
+#. module: flota
+#: model:ir.module.category,name:flota.module_flota_category
+#: model:ir.ui.menu,name:flota.flota_impresora_menu
+#: model:ir.ui.menu,name:flota.flota_impresoras
+#: model:ir.ui.menu,name:flota.menu_root
+#: model_terms:ir.ui.view,arch_db:flota.res_config_settings_view_form
+msgid "Flota"
+msgstr "Flota"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_cost_report
+msgid "Flota Analysis Report"
+msgstr "Informe de análisis de flota"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_costs_report_view_graph
+#: model_terms:ir.ui.view,arch_db:flota.flota_costs_report_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_vechicle_costs_report_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_vechicle_costs_report_view_tree
+msgid "Flota Costs Analysis"
+msgstr "Análisis de costes de flota"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.res_config_settings_view_form
+msgid "Flota Management"
+msgstr "Gestión de flotas"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__manager_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__manager_id
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_search
+msgid "Flota Manager"
+msgstr "Gerente de flota"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_service_type
+msgid "Flota Service Type"
+msgstr "Tipo de servicio de flota"
+
+#. module: flota
+#: model:ir.actions.server,name:flota.ir_cron_contract_costs_generator_ir_actions_server
+msgid "Flota: Generate contracts costs based on costs frequency"
+msgstr "Flota: genere costes de contratos según la frecuencia de los costes"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__message_follower_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__message_follower_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__message_follower_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__message_partner_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__message_partner_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__message_partner_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Contactos)"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__activity_type_icon
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__activity_type_icon
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__activity_type_icon
+#: model:ir.model.fields,help:flota.field_flota_impresora_model__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Icono de Font Awesome p. ej. fa-tasks"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__frame_size
+msgid "Frame Size"
+msgstr "Tamaño del cuadro"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__fuel_type
+msgid "Fuel"
+msgstr "Combustible"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_22
+msgid "Fuel Injector Replacement"
+msgstr "Reemplazo del inyector de combustible"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_23
+msgid "Fuel Pump Replacement"
+msgstr "Reemplazo de la bomba de combustible"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__fuel_type
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__default_fuel_type
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Fuel Type"
+msgstr "Tipo de combustible"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__fuel_type__full_hybrid
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__default_fuel_type__full_hybrid
+msgid "Full Hybrid"
+msgstr "Totalmente híbrido"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Future Activities"
+msgstr "Actividades futuras"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__future_driver_id
+msgid "Future Driver"
+msgstr "Futuro conductor"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_kanban
+msgid "Future Driver :"
+msgstr "Futuro conductor:"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__fuel_type__gasoline
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__default_fuel_type__gasoline
+msgid "Gasoline"
+msgstr "Gasolina"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_costs_report_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_odometer_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_service_types_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__contract_renewal_overdue
+msgid "Has Contracts Overdue"
+msgstr "Tiene contratos vencidos"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__contract_renewal_due_soon
+msgid "Has Contracts to renew"
+msgstr "Tiene contratos que renovar"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__has_message
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__has_message
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__has_message
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__has_message
+msgid "Has Message"
+msgstr "Tiene un mensaje"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__has_open_contract
+msgid "Has Open Contract"
+msgstr ""
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_24
+msgid "Head Gasket(s) Replacement"
+msgstr "Reemplazo de junta(s) de culata"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_25
+msgid "Heater Blower Motor Replacement"
+msgstr "Reemplazo del motor del ventilador del calentador"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_26
+msgid "Heater Control Valve Replacement"
+msgstr "Reemplazo de la válvula de control del calentador"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_27
+msgid "Heater Core Replacement"
+msgstr "Reemplazo del núcleo del calentador"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_28
+msgid "Heater Hose Replacement"
+msgstr "Reemplazo de la manguera del calentador"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__horsepower
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__horsepower
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__power_unit__horsepower
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__power_unit__horsepower
+msgid "Horsepower"
+msgstr "Caballos de vapor"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__horsepower_tax
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__horsepower_tax
+msgid "Horsepower Taxation"
+msgstr "Impuestos sobre caballos de vapor"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__fuel_type__hydrogen
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__default_fuel_type__hydrogen
+msgid "Hydrogen"
+msgstr "Hidrógeno"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_service_type__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_category__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_state__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_tag__id
+msgid "ID"
+msgstr "ID"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_exception_icon
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_exception_icon
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_exception_icon
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_exception_icon
+msgid "Icon"
+msgstr "Icono"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__activity_exception_icon
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__activity_exception_icon
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__activity_exception_icon
+#: model:ir.model.fields,help:flota.field_flota_impresora_model__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icono para indicar una actividad de excepción."
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__message_needaction
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__message_needaction
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__message_needaction
+#: model:ir.model.fields,help:flota.field_flota_impresora_model__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcada, hay nuevos mensajes que requieren su atención."
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__message_has_error
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__message_has_error
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__message_has_error
+#: model:ir.model.fields,help:flota.field_flota_impresora_model__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si está marcada, algunos mensajes tienen error de envío."
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_29
+msgid "Ignition Coil Replacement"
+msgstr "Reemplazo de bobina de encendido"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__image_1920
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__image_1920
+msgid "Image"
+msgstr "Imagen"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__image_1024
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__image_1024
+msgid "Image 1024"
+msgstr "Imagen 1024"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__image_128
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__image_128
+msgid "Image 128"
+msgstr "Imagen 128"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__image_256
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__image_256
+msgid "Image 256"
+msgstr "Imagen 256"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__image_512
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__image_512
+msgid "Image 512"
+msgstr "Imagen 512"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__contract_state__open
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+msgid "In Progress"
+msgstr "En proceso"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__service_ids
+msgid "Included Services"
+msgstr "Servicios incluidos"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__contract_state__futur
+msgid "Incoming"
+msgstr "Entrante"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+msgid "Information"
+msgstr "Información"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_30
+msgid "Intake Manifold Gasket Replacement"
+msgstr "Reemplazo de la junta del colector de admisión"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__is_mail_template_editor
+msgid "Is Editor"
+msgstr "Es un editor"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__message_is_follower
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__message_is_follower
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__message_is_follower
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__message_is_follower
+msgid "Is Follower"
+msgstr "Es un seguidor"
+
+#. module: flota
+#: model:flota.impresora.tag,name:flota.impresora_tag_junior
+msgid "Junior"
+msgstr "Junior"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_odometer_view_kanban
+msgid "Km"
+msgstr "Km"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__fuel_type__lpg
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__default_fuel_type__lpg
+msgid "LPG"
+msgstr "GLP"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__lang
+msgid "Language"
+msgstr "Idioma"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__contract_state
+msgid "Last Contract State"
+msgstr "Estado del último contrato"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__odometer
+msgid "Last Odometer"
+msgstr "Último odómetro"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_service_type__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_category__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_state__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_tag__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_service_type__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_category__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_state__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_tag__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Late Activities"
+msgstr "Actividades retrasadas"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_contract_leasing
+msgid "Leasing"
+msgstr "Leasing"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_action
+msgid "Let's create your first impresora."
+msgstr "Creemos su primer impresora."
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__license_plate
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "License Plate"
+msgstr "Matrícula"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__license_plate
+msgid "License plate number of the impresora (i = plate number for a car)"
+msgstr ""
+"Número de matrícula de la impresora (i = número de matrícula para una impresora)"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_send_mail_view_form
+msgid "Load template"
+msgstr "Cargar plantilla"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__location
+msgid "Location"
+msgstr "Ubicación"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__location
+msgid "Location of the impresora (garage, ...)"
+msgstr "Ubicación de la impresora (garaje, ...)"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__image_128
+msgid "Logo"
+msgstr "Logotipo"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_kanban
+msgid "MODELS"
+msgstr "MODELOS"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__template_id
+msgid "Mail Template"
+msgstr "Plantilla de correo electrónico"
+
+#. module: flota
+#: model:ir.actions.server,name:flota.action_flota_impresora_send_mail
+msgid "Mail to Driver"
+msgstr "Correo al conductor"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_log_contract_action
+msgid ""
+"Manage all your contracts (leasing, insurances, etc.) with\n"
+"            their related services, costs. Odoo will automatically warn\n"
+"            you when some contracts have to be renewed."
+msgstr ""
+"Gestione todos sus contratos (leasing, seguros, etc) con\n"
+"            sus servicios y costes relacionados. Odoo le advertirá automáticamente\n"
+"            cuando se tengan que renovar algunos contratos."
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_costs_reporting_action
+msgid "Manage efficiently your different effective impresoras Costs with Odoo."
+msgstr ""
+"Gestione de forma eficiente los diferentes costes efectivos de sus impresoras"
+" con Odoo."
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_10
+msgid "Management Fee"
+msgstr "Tarifa de gestión"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__transmission__manual
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__transmission__manual
+msgid "Manual"
+msgstr "Manual"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__brand_id
+msgid "Manufacturer"
+msgstr "Fabricante"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_impresora_model_brand_action
+#: model:ir.ui.menu,name:flota.flota_impresora_model_brand_menu
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_search
+msgid "Manufacturers"
+msgstr "Fabricantes"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__message_has_error
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__message_has_error
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__message_has_error
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de envío de mensaje"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__message_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__message_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__message_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__model_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__model_ids
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Model"
+msgstr "Modelo"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_category_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_category_view_tree
+msgid "Model Category"
+msgstr "Categoría del modelo"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__model_count
+msgid "Model Count"
+msgstr "Número de modelos"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_tree
+msgid "Model Make"
+msgstr "Marca del modelo"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__model_year
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__model_year
+msgid "Model Year"
+msgstr "Año del modelo"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__name
+msgid "Model name"
+msgstr "Nombre del modelo"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_model
+msgid "Model of a impresora"
+msgstr "Modelo de una impresora"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_impresora_model_action
+#: model:ir.ui.menu,name:flota.flota_models_configuration
+#: model:ir.ui.menu,name:flota.flota_impresora_model_menu
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_tree
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_kanban
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_tree
+msgid "Models"
+msgstr "Modelos"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_contract__cost_frequency__monthly
+msgid "Monthly"
+msgstr "Mensualmente"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__my_activity_date_deadline
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__my_activity_date_deadline
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__my_activity_date_deadline
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Fecha límite de mi actividad"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_service_type__name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_category__name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_state__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Need Action"
+msgstr "Requiere acción"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_contract__state__futur
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_services__state__new
+msgid "New"
+msgstr "Nuevo"
+
+#. module: flota
+#: model:flota.impresora.state,name:flota.flota_impresora_state_new_request
+msgid "New Request"
+msgstr "Nueva solicitud"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_calendar_event_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_calendar_event_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_calendar_event_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "Siguiente evento en el calendario de actividades."
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_date_deadline
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_date_deadline
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_date_deadline
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Fecha límite de la siguiente actividad"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_summary
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_summary
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_summary
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resumen de la siguiente actividad"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_type_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_type_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_type_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_type_id
+msgid "Next Activity Type"
+msgstr "Tipo de la siguiente actividad"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__future_driver_id
+msgid "Next Driver Address of the impresora"
+msgstr "Dirección del próximo conductor de la impresora"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_contract__cost_frequency__no
+msgid "No"
+msgstr "No"
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/models/flota_impresora.py:0
+msgid "No Plate"
+msgstr "Sin matrícula"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_costs_reporting_action
+msgid "No data for analysis"
+msgstr "No hay datos para el análisis"
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/models/flota_impresora.py:0
+msgid "No plate"
+msgstr "Sin matrícula"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__service_activity__none
+msgid "None"
+msgstr "Ninguno"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Note"
+msgstr "Nota"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__notes
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_form
+msgid "Notes"
+msgstr "Notas"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__message_needaction_counter
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__message_needaction_counter
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__message_needaction_counter
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__doors
+msgid "Number of doors of the impresora"
+msgstr "Número de puertas de la impresora"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__message_has_error_counter
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__message_has_error_counter
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__message_has_error_counter
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número de errores"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__message_needaction_counter
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__message_needaction_counter
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__message_needaction_counter
+#: model:ir.model.fields,help:flota.field_flota_impresora_model__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Número de mensajes que requieren una acción"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__message_has_error_counter
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__message_has_error_counter
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__message_has_error_counter
+#: model:ir.model.fields,help:flota.field_flota_impresora_model__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de envío"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__seats
+msgid "Number of seats of the impresora"
+msgstr "Número de asientos de la impresora"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__odometer_count
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__odometer_id
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Odometer"
+msgstr "Odómetro"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_odometer_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_odometer_view_tree
+msgid "Odometer Logs"
+msgstr "Registros del odómetro"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__odometer_unit
+msgid "Odometer Unit"
+msgstr "Unidad del odómetro"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__odometer
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__value
+msgid "Odometer Value"
+msgstr "Valor del odómetro"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_odometer_view_graph
+msgid "Odometer Values Per Impresora"
+msgstr "Valores del odómetro por impresora"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_odometer
+msgid "Odometer log for a impresora"
+msgstr "Registro del odómetro para una impresora"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__odometer
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__odometer
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__odometer_id
+msgid "Odometer measure of the impresora at the moment of this log"
+msgstr "Medida del odómetro de la impresora al momento del registro"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_impresora_odometer_action
+#: model:ir.ui.menu,name:flota.flota_impresora_odometer_menu
+msgid "Odometers"
+msgstr "Odómetros"
+
+#. module: flota
+#: model:res.groups,name:flota.flota_group_user
+msgid "Officer: Manage all impresoras"
+msgstr "Encargado: gestionar todos las impresoras"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_31
+msgid "Oil Change"
+msgstr "Cambio de aceite"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_32
+msgid "Oil Pump Replacement"
+msgstr "Reemplazo de la bomba de aceite"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_contract_omnium
+msgid "Omnium"
+msgstr "Cobertura total"
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/models/flota_impresora_model.py:0
+msgid "Operation not supported."
+msgstr "Operación no admitida."
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora_send_mail__lang
+msgid ""
+"Optional translation language (ISO code) to select when sending out an "
+"email. If not set, the english version will be used. This should usually be "
+"a placeholder expression that provides the appropriate language, e.g. {{ "
+"object.partner_id.lang }}."
+msgstr ""
+"Idioma de traducción opcional (código ISO) a seleccionar para el envío de "
+"correos electrónicos. Si no se selecciona esta opción, se utilizará la "
+"versión en inglés. Por lo general, se usa una expresión de marcador de "
+"posición para indicar el idioma adecuado, por ejemplo, {{ "
+"object.partner_id.lang }}."
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_15
+msgid "Options"
+msgstr "Opciones"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__order_date
+msgid "Order Date"
+msgstr "Fecha de la orden"
+
+#. module: flota
+#: model:flota.impresora.state,name:flota.flota_impresora_state_ordered
+msgid "Ordered"
+msgstr "Pedido"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_33
+msgid "Other Maintenance"
+msgstr "Otro mantenimiento"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__service_activity__overdue
+msgid "Overdue"
+msgstr "Vencida"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_34
+msgid "Oxygen Sensor Replacement"
+msgstr "Reemplazo del sensor de oxígeno"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__plan_to_change_bike
+#: model:ir.model.fields,field_description:flota.field_res_partner__plan_to_change_bike
+#: model:ir.model.fields,field_description:flota.field_res_users__plan_to_change_bike
+msgid "Plan To Change Bike"
+msgstr "Planificar el cambio de bicicleta"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__plan_to_change_car
+#: model:ir.model.fields,field_description:flota.field_res_partner__plan_to_change_car
+#: model:ir.model.fields,field_description:flota.field_res_users__plan_to_change_car
+msgid "Plan To Change Car"
+msgstr "Planificar el cambio de coche"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Planned for Change"
+msgstr "Planificado para el cambio"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__fuel_type__plug_in_hybrid_diesel
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__default_fuel_type__plug_in_hybrid_diesel
+msgid "Plug-in Hybrid Diesel"
+msgstr "Diésel de híbrido enchufable"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__fuel_type__plug_in_hybrid_gasoline
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__default_fuel_type__plug_in_hybrid_gasoline
+msgid "Plug-in Hybrid Gasoline"
+msgstr "Gasolina de híbrido enchufable "
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__power
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__power
+msgid "Power"
+msgstr "Potencia"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_35
+msgid "Power Steering Hose Replacement"
+msgstr "Reemplazo de manguera de dirección asistida"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_36
+msgid "Power Steering Pump Replacement"
+msgstr "Reemplazo de la bomba de dirección asistida"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__power_unit
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__power_unit
+msgid "Power Unit"
+msgstr ""
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__power
+msgid "Power in kW of the impresora"
+msgstr "Potencia de la impresora en kW"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__impresora_properties
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Properties"
+msgstr "Propiedades"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__net_car_value
+msgid "Purchase Value"
+msgstr "Valor de la compra"
+
+#. module: flota
+#: model:flota.impresora.tag,name:flota.impresora_tag_purchased
+msgid "Purchased"
+msgstr "Comprado"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_37
+msgid "Radiator Repair"
+msgstr "Reparación del radiador"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__impresora_range
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__impresora_range
+msgid "Range"
+msgstr "Rango"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_action
+msgid "Ready to manage your flota more efficiently?"
+msgstr "¿Listo para gestionar su flota de forma más eficiente?"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__cost_generated
+msgid "Recurring Cost"
+msgstr "Coste recurrente"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__cost_frequency
+msgid "Recurring Cost Frequency"
+msgstr "Frecuencia del coste recurrente"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__ins_ref
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_refueling
+msgid "Refueling"
+msgstr "Repostar"
+
+#. module: flota
+#: model:flota.impresora.state,name:flota.flota_impresora_state_registered
+msgid "Registered"
+msgstr "Matriculado"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__acquisition_date
+msgid "Registration Date"
+msgstr "Fecha de matriculación"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__render_model
+msgid "Rendering Model"
+msgstr "Modelo de visualización"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_11
+msgid "Rent (Excluding VAT)"
+msgstr "Alquiler (sin incluir IVA)"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_7
+msgid "Repair and maintenance"
+msgstr "Reparación y mantenimiento"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_contract_repairing
+msgid "Repairing"
+msgstr "Reparando"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_9
+msgid "Replacement Impresora"
+msgstr "Impresora de reemplazo"
+
+#. module: flota
+#: model:ir.ui.menu,name:flota.menu_flota_reporting
+msgid "Reporting"
+msgstr "Informes"
+
+#. module: flota
+#: model:flota.impresora.state,name:flota.flota_impresora_state_reserve
+msgid "Reserve"
+msgstr "Reserva"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__residual_value
+msgid "Residual Value"
+msgstr "Valor residual"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_14
+msgid "Residual value (Excluding VAT)"
+msgstr "Valor residual (sin incluir IVA)"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_18
+msgid "Residual value in %"
+msgstr "Valor residual en %"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__user_id
+msgid "Responsible"
+msgstr "Responsable"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_user_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_user_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_user_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_user_id
+msgid "Responsible User"
+msgstr "Usuario responsable"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_kanban
+msgid "Restore"
+msgstr "Restaurar"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_38
+msgid "Resurface Rotors"
+msgstr "Rectificar rotores"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_39
+msgid "Rotate Tires"
+msgstr "Cambiar neumáticos"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_40
+msgid "Rotor Replacement"
+msgstr "Reemplazo del rotor"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_contract__state__open
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_services__state__running
+msgid "Running"
+msgstr "En curso"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_send_mail_view_form
+msgid "Save as new template"
+msgstr "Guardar como nueva plantilla"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__seats
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__seats
+msgid "Seats Number"
+msgstr "Nº de asientos"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_send_mail_view_form
+msgid "Send"
+msgstr "Enviar"
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/models/flota_impresora.py:0
+msgid "Send Email"
+msgstr "Enviar correo electrónico"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_send_mail
+msgid "Send mails to Drivers"
+msgstr "Enviar correos a los conductores"
+
+#. module: flota
+#: model:flota.impresora.tag,name:flota.impresora_tag_senior
+msgid "Senior"
+msgstr "Senior"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_category__sequence
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_state__sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_service_type__category__service
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_cost_report__cost_type__service
+#: model_terms:ir.ui.view,arch_db:flota.flota_costs_report_view_search
+msgid "Service"
+msgstr "Servicio"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__service_activity
+msgid "Service Activity"
+msgstr "Actividad de servicio"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__service_type_id
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_search
+msgid "Service Type"
+msgstr "Tipo de servicio"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_service_types_view_tree
+msgid "Service Types"
+msgstr "Tipos de servicio"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_impresora_log_services_action
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__service_count
+#: model:ir.ui.menu,name:flota.flota_services_configuration
+#: model:ir.ui.menu,name:flota.flota_impresora_log_services_menu
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_activity
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Services"
+msgstr "Servicios"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_graph
+msgid "Services Costs Per Month"
+msgstr "Costes de servicios por mes"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__log_services
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_tree
+msgid "Services Logs"
+msgstr "Registros de los servicios"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_log_services
+msgid "Services for impresoras"
+msgstr "Servicios para las impresoras"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_config_settings_action
+#: model:ir.ui.menu,name:flota.flota_config_settings_menu
+msgid "Settings"
+msgstr "Ajustes"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Show all records which has next action date is before today"
+msgstr ""
+"Mostrar todos los registros que tienen la próxima fecha de acción antes de "
+"hoy"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_6
+msgid "Snow tires"
+msgstr "Neumáticos de nieve"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_41
+msgid "Spark Plug Replacement"
+msgstr "Reemplazo de bujías"
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/models/flota_impresora.py:0
+msgid "Specify the End date of %s"
+msgstr "Especificar la fecha de finalización de %s"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__state
+msgid "Stage"
+msgstr "Etapa"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__date_start
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_42
+msgid "Starter Replacement"
+msgstr "Reemplazo del motor de arranque"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__state_id
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_state_view_tree
+msgid "State"
+msgstr "Estado"
+
+#. module: flota
+#: model:ir.model.constraint,message:flota.constraint_flota_impresora_state_flota_state_name_unique
+msgid "State name already exists"
+msgstr "El nombre del estado ya existe"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_impresora_state_action
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__state
+#: model:ir.ui.menu,name:flota.flota_impresora_state_menu
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Status"
+msgstr "Estado"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__activity_state
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__activity_state
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__activity_state
+#: model:ir.model.fields,help:flota.field_flota_impresora_model__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Estado basado en actividades\n"
+"Vencida: la fecha límite ya ha pasado\n"
+"Hoy: la fecha límite es hoy\n"
+"Planificada: actividades futuras."
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__subject
+msgid "Subject"
+msgstr "Asunto"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_vechicle_costs_report_view_tree
+msgid "Sum of Cost"
+msgstr "Suma de los costes"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_5
+msgid "Summer tires"
+msgstr "Neumáticos de verano"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_tag__name
+msgid "Tag Name"
+msgstr "Nombre de etiqueta"
+
+#. module: flota
+#: model:ir.model.constraint,message:flota.constraint_flota_impresora_tag_name_uniq
+msgid "Tag name already exists!"
+msgstr "¡El nombre de la etiqueta ya existe!"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_impresora_tag_action
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__tag_ids
+#: model:ir.ui.menu,name:flota.flota_impresora_tag_menu
+msgid "Tags"
+msgstr "Etiquetas"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Tax Info"
+msgstr "Información fiscal"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_3
+msgid "Tax roll"
+msgstr "Registro tributario"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__notes
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_form
+msgid "Terms and Conditions"
+msgstr "Términos y condiciones"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+"EL código ISO del país en dos caracteres.\n"
+"Puede utilizar este campo para una búsqueda rápida."
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/wizard/flota_impresora_send_mail.py:0
+msgid "The following impresora drivers are missing an email address: %s."
+msgstr ""
+"Los siguientes conductores no tienen dirección de correo electrónico: %s."
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/models/flota_impresora.py:0
+msgid "The odometer value cannot be lower than the previous one."
+msgstr "El valor del odómetro no puede ser menor al valor previo."
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_43
+msgid "Thermostat Replacement"
+msgstr "Reemplazo del termostato"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__next_assignation_date
+msgid ""
+"This is the date at which the car will be available, if not set it means "
+"available instantly"
+msgstr ""
+"Esta es la fecha en la que el coche estará disponible, si no se establece "
+"significa disponible al instante"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_44
+msgid "Tie Rod End Replacement"
+msgstr "Repuesto de la rótula"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_45
+msgid "Tire Replacement"
+msgstr "Reemplazo de neumático"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_46
+msgid "Tire Service"
+msgstr "Servicio de neumáticos"
+
+#. module: flota
+#: model:flota.impresora.state,name:flota.flota_impresora_state_to_order
+msgid "To Order"
+msgstr "A pedir"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__service_activity__today
+msgid "Today"
+msgstr "Hoy"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Today Activities"
+msgstr "Actividades de hoy"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_tree
+msgid "Total"
+msgstr "Total"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_13
+msgid "Total expenses (Excluding VAT)"
+msgstr "Gastos totales (sin incluir IVA)"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_17
+msgid "Touring Assistance"
+msgstr "Asistencia en viaje"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_log_services_action
+msgid ""
+"Track all the services done on your impresora.\n"
+"            Services can be of many types: occasional repair, fixed maintenance, etc."
+msgstr ""
+"Lleve el seguimiento de todos los servicios realizados a su impresora.\n"
+"            Los servicios pueden ser de muchos tipos: reparaciones ocasionales, mantenimiento fijo, etc."
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__trailer_hook
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__trailer_hook
+msgid "Trailer Hitch"
+msgstr "Enganche de remolque"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Trailer Hook"
+msgstr "Gancho de remolque"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__transmission
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__transmission
+msgid "Transmission"
+msgstr "Transmisión"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_47
+msgid "Transmission Filter Replacement"
+msgstr "Reemplazo de filtro de transmisión"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_48
+msgid "Transmission Fluid Replacement"
+msgstr "Reemplazo de líquido de transmisión"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_49
+msgid "Transmission Replacement"
+msgstr "Reemplazo de transmisión"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__frame_type__trapez
+msgid "Trapez"
+msgstr "Trapeze"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__cost_subtype_id
+msgid "Type"
+msgstr "Tipo"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__activity_exception_decoration
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__activity_exception_decoration
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__activity_exception_decoration
+#: model:ir.model.fields,help:flota.field_flota_impresora_model__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipo de actividad de excepción en el registro."
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_impresora_service_types_action
+#: model:ir.ui.menu,name:flota.flota_impresora_service_types_menu
+msgid "Types"
+msgstr "Tipos"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__vin_sn
+msgid "Unique number written on the impresora motor (VIN/SN number)"
+msgstr ""
+"Número único escrito en el motor de la impresora (número de identificación del "
+"impresora o número de serie)"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__odometer_unit
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__unit
+msgid "Unit"
+msgstr "Unidad"
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/models/flota_impresora_model.py:0
+#: model:ir.model,name:flota.model_flota_impresora
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__impresora_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__impresora_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__impresora_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__impresora_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__impresora_id
+#: model:ir.ui.menu,name:flota.flota_impresoras_configuration
+#: model_terms:ir.ui.view,arch_db:flota.flota_costs_report_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_odometer_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_tree
+msgid "Impresora"
+msgstr "Impresora"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_log_contract
+msgid "Impresora Contract"
+msgstr "Contrato de la impresora"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__impresora_count
+msgid "Impresora Count"
+msgstr "Número de impresoras"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__description
+msgid "Impresora Description"
+msgstr "Descripción de la impresora"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+msgid "Impresora Information"
+msgstr "Información de la impresora"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__name
+msgid "Impresora Name"
+msgstr "Nombre de la impresora"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__impresora_properties_definition
+msgid "Impresora Properties"
+msgstr "Propiedades de la impresora"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_state
+msgid "Impresora Status"
+msgstr "Estado de la impresora"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_tag
+msgid "Impresora Tag"
+msgstr "Etiqueta de impresora"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_tag_view_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_tag_view_view_tree
+msgid "Impresora Tags"
+msgstr "Etiquetas de impresora"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__impresora_type
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__impresora_type
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__impresora_type
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_search
+msgid "Impresora Type"
+msgstr "Tipo de impresora"
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/wizard/flota_impresora_send_mail.py:0
+msgid "Impresora: Mass mail drivers"
+msgstr "Impresora: enviar correo masivo a los conductores"
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/models/flota_impresora_model.py:0
+#: model:ir.actions.act_window,name:flota.flota_impresora_action
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__impresora_ids
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_tree
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_activity
+msgid "Impresoras"
+msgstr "Impresoras"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_activity
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+msgid "Impresoras Contracts"
+msgstr "Contratos de impresoras"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_search
+msgid "Impresoras costs"
+msgstr "Costes de las impresoras"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_odometer_view_search
+msgid "Impresoras odometers"
+msgstr "Odómetros de las impresoras"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__insurer_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__vendor_id
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+msgid "Vendor"
+msgstr "Proveedor"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__inv_ref
+msgid "Vendor Reference"
+msgstr "Referencia de vendedor"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__vendors
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+msgid "Vendors"
+msgstr "Proveedores"
+
+#. module: flota
+#: model:flota.impresora.state,name:flota.flota_impresora_state_waiting_list
+msgid "Waiting List"
+msgstr "Lista de espera"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__days_left
+msgid "Warning Date"
+msgstr "Fecha de advertencia"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_kanban
+msgid "Warning: renewal due soon"
+msgstr "Advertencia: renovación pronto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_50
+msgid "Water Pump Replacement"
+msgstr "Reemplazo de bomba de agua"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__frame_type__wave
+msgid "Wave"
+msgstr "Ola "
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_contract__cost_frequency__weekly
+msgid "Weekly"
+msgstr "Semanalmente"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_51
+msgid "Wheel Alignment"
+msgstr "Alineación de neumáticos"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_52
+msgid "Wheel Bearing Replacement"
+msgstr "Reemplazo de cojinete de rueda"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_53
+msgid "Windshield Wiper(s) Replacement"
+msgstr "Reemplazo de limpiaparabrisas"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_search
+msgid "With Models"
+msgstr "Con modelos"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_form
+msgid "Write here all other information relative to this contract"
+msgstr "Escriba aquí cualquier otra información relativa a este contrato"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_form
+msgid "Write here any other information related to the service completed."
+msgstr ""
+"Escriba aquí cualquier otra información relacionada con el servicio "
+"completado."
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Write here any other information related to this impresora"
+msgstr "Escriba aquí cualquier otra información relacionada con esta impresora"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_send_mail_view_form
+msgid "Write your message here..."
+msgstr "Escriba su mensaje aquí..."
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__model_year
+msgid "Year of the model"
+msgstr "Año del modelo"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_contract__cost_frequency__yearly
+msgid "Yearly"
+msgstr "Anualmente"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_odometer_action
+msgid "You can add various odometer entries for all impresoras."
+msgstr "Puede agregar varias entradas de odómetro para todos las impresoras."
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_state_action
+msgid ""
+"You can customize available status to track the evolution of\n"
+"            each impresora. Example: active, being repaired, sold."
+msgstr ""
+"Puede personalizar el estado disponible para seguir la evolución de\n"
+"            cada impresora. Ejemplo: activo, en reparación, vendido."
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_model_action
+msgid "You can define several models (e.g. A3, A4) for each make (Audi)."
+msgstr ""
+"Se pueden definir varios modelos (por ejemplo, A3, A4) para cada marca "
+"(Audi) ."
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "e.g. Model S"
+msgstr "p. ej. Model S"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "e.g. PAE 326"
+msgstr "p. ej. PAE 326"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+msgid "e.g. Tesla"
+msgstr "p. ej. Tesla"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__power_unit__power
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__power_unit__power
+msgid "kW"
+msgstr ""
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__odometer_unit__kilometers
+msgid "km"
+msgstr "km"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__odometer_unit__miles
+msgid "mi"
+msgstr "mi"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "show the contract for this impresora"
+msgstr "mostrar el contrato para esta impresora"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "show the odometer logs for this impresora"
+msgstr "mostrar los registros de odómetro para esta impresora"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "show the services logs for this impresora"
+msgstr "mostrar los registros de servicios para esta impresora"

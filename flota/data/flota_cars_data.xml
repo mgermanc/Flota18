@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="brand_abarth" model="flota.impresora.model.brand">
+        <field name="name">Abarth</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_abarth-image.png"/>
+    </record>
+    <record id="brand_acura" model="flota.impresora.model.brand">
+        <field name="name">Acura</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_acura-image.png"/>
+    </record>
+    <record id="brand_alfa" model="flota.impresora.model.brand">
+        <field name="name">Alfa</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_alfa-image.png"/>
+    </record>
+    <record id="brand_audi" model="flota.impresora.model.brand">
+        <field name="name">Audi</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_audi-image.png"/>
+    </record>
+    <record id="brand_austin" model="flota.impresora.model.brand">
+        <field name="name">Austin</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_austin-image.png"/>
+    </record>
+    <record id="brand_bentley" model="flota.impresora.model.brand">
+        <field name="name">Bentley</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_bentley-image.png"/>
+    </record>
+    <record id="brand_bmw" model="flota.impresora.model.brand">
+        <field name="name">Bmw</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_bmw-image.png"/>
+    </record>
+    <record id="brand_bugatti" model="flota.impresora.model.brand">
+        <field name="name">Bugatti</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_bugatti-image.png"/>
+    </record>
+    <record id="brand_buick" model="flota.impresora.model.brand">
+        <field name="name">Buick</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_buick-image.png"/>
+    </record>
+    <record id="brand_byd" model="flota.impresora.model.brand">
+        <field name="name">Byd</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_byd-image.png"/>
+    </record>
+    <record id="brand_cadillac" model="flota.impresora.model.brand">
+        <field name="name">Cadillac</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_cadillac-image.png"/>
+    </record>
+    <record id="brand_chevrolet" model="flota.impresora.model.brand">
+        <field name="name">Chevrolet</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_chevrolet-image.png"/>
+    </record>
+    <record id="brand_chrysler" model="flota.impresora.model.brand">
+        <field name="name">Chrysler</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_chrysler-image.png"/>
+    </record>
+    <record id="brand_citroen" model="flota.impresora.model.brand">
+        <field name="name">Citroen</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_citroen-image.png"/>
+    </record>
+    <record id="brand_corre_la_licorne" model="flota.impresora.model.brand">
+        <field name="name">Corre La Licorne</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_corre-la-licorne-image.png"/>
+    </record>
+    <record id="brand_daewoo" model="flota.impresora.model.brand">
+        <field name="name">Daewoo</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_daewoo-image.png"/>
+    </record>
+    <record id="brand_dodge" model="flota.impresora.model.brand">
+        <field name="name">Dodge</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_dodge-image.png"/>
+    </record>
+    <record id="brand_ferrari" model="flota.impresora.model.brand">
+        <field name="name">Ferrari</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_ferrari-image.png"/>
+    </record>
+    <record id="brand_fiat" model="flota.impresora.model.brand">
+        <field name="name">Fiat</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_fiat-image.png"/>
+    </record>
+    <record id="brand_ford" model="flota.impresora.model.brand">
+        <field name="name">Ford</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_ford-image.png"/>
+    </record>
+    <record id="brand_holden" model="flota.impresora.model.brand">
+        <field name="name">Holden</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_holden-image.png"/>
+    </record>
+    <record id="brand_honda" model="flota.impresora.model.brand">
+        <field name="name">Honda</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_honda-image.png"/>
+    </record>
+    <record id="brand_hyundai" model="flota.impresora.model.brand">
+        <field name="name">Hyundai</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_hyundai-image.png"/>
+    </record>
+    <record id="brand_infiniti" model="flota.impresora.model.brand">
+        <field name="name">Infiniti</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_infiniti-image.png"/>
+    </record>
+    <record id="brand_isuzu" model="flota.impresora.model.brand">
+        <field name="name">Isuzu</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_isuzu-image.png"/>
+    </record>
+    <record id="brand_jaguar" model="flota.impresora.model.brand">
+        <field name="name">Jaguar</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_jaguar-image.png"/>
+    </record>
+    <record id="brand_jeep" model="flota.impresora.model.brand">
+        <field name="name">Jeep</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_jeep-image.png"/>
+    </record>
+    <record id="brand_kia" model="flota.impresora.model.brand">
+        <field name="name">Kia</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_kia-image.png"/>
+    </record>
+    <record id="brand_koenigsegg" model="flota.impresora.model.brand">
+        <field name="name">Koenigsegg</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_koenigsegg-image.png"/>
+    </record>
+    <record id="brand_lagonda" model="flota.impresora.model.brand">
+        <field name="name">Lagonda</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_lagonda-image.png"/>
+    </record>
+    <record id="brand_lamborghini" model="flota.impresora.model.brand">
+        <field name="name">Lamborghini</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_lamborghini-image.png"/>
+    </record>
+    <record id="brand_lancia" model="flota.impresora.model.brand">
+        <field name="name">Lancia</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_lancia-image.png"/>
+    </record>
+    <record id="brand_land_rover" model="flota.impresora.model.brand">
+        <field name="name">Land Rover</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_land-rover-image.png"/>
+    </record>
+    <record id="brand_lexus" model="flota.impresora.model.brand">
+        <field name="name">Lexus</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_lexus-image.png"/>
+    </record>
+    <record id="brand_lincoln" model="flota.impresora.model.brand">
+        <field name="name">Lincoln</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_lincoln-image.png"/>
+    </record>
+    <record id="brand_lotus" model="flota.impresora.model.brand">
+        <field name="name">Lotus</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_lotus-image.png"/>
+    </record>
+    <record id="brand_maserati" model="flota.impresora.model.brand">
+        <field name="name">Maserati</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_maserati-image.png"/>
+    </record>
+    <record id="brand_maybach" model="flota.impresora.model.brand">
+        <field name="name">Maybach</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_maybach-image.png"/>
+    </record>
+    <record id="brand_mazda" model="flota.impresora.model.brand">
+        <field name="name">Mazda</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_mazda-image.png"/>
+    </record>
+    <record id="brand_mercedes" model="flota.impresora.model.brand">
+        <field name="name">Mercedes</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_mercedes-image.png"/>
+    </record>
+    <record id="brand_mg" model="flota.impresora.model.brand">
+        <field name="name">Mg</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_mg-image.png"/>
+    </record>
+    <record id="brand_mini" model="flota.impresora.model.brand">
+        <field name="name">Mini</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_mini-image.png"/>
+    </record>
+    <record id="brand_mitsubishi" model="flota.impresora.model.brand">
+        <field name="name">Mitsubishi</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_mitsubishi-image.png"/>
+    </record>
+    <record id="brand_morgan" model="flota.impresora.model.brand">
+        <field name="name">Morgan</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_morgan-image.png"/>
+    </record>
+    <record id="brand_nissan" model="flota.impresora.model.brand">
+        <field name="name">Nissan</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_nissan-image.png"/>
+    </record>
+    <record id="brand_oldsmobile" model="flota.impresora.model.brand">
+        <field name="name">Oldsmobile</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_oldsmobile-image.png"/>
+    </record>
+    <record id="brand_opel" model="flota.impresora.model.brand">
+        <field name="name">Opel</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_opel-image.png"/>
+    </record>
+    <record id="brand_peugeot" model="flota.impresora.model.brand">
+        <field name="name">Peugeot</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_peugeot-image.png"/>
+    </record>
+    <record id="brand_pontiac" model="flota.impresora.model.brand">
+        <field name="name">Pontiac</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_pontiac-image.png"/>
+    </record>
+    <record id="brand_porsche" model="flota.impresora.model.brand">
+        <field name="name">Porsche</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_porsche-image.png"/>
+    </record>
+    <record id="brand_rambler" model="flota.impresora.model.brand">
+        <field name="name">Rambler</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_rambler-image.png"/>
+    </record>
+    <record id="brand_renault" model="flota.impresora.model.brand">
+        <field name="name">Renault</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_renault-image.png"/>
+    </record>
+    <record id="brand_rolls-royce" model="flota.impresora.model.brand">
+        <field name="name">Rolls-Royce</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_rolls-royce-image.png"/>
+    </record>
+    <record id="brand_saab" model="flota.impresora.model.brand">
+        <field name="name">Saab</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_saab-image.png"/>
+    </record>
+    <record id="brand_scion" model="flota.impresora.model.brand">
+        <field name="name">Scion</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_scion-image.png"/>
+    </record>
+    <record id="brand_skoda" model="flota.impresora.model.brand">
+        <field name="name">Skoda</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_skoda-image.png"/>
+    </record>
+    <record id="brand_smart" model="flota.impresora.model.brand">
+        <field name="name">Smart</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_smart-image.png"/>
+    </record>
+    <record id="brand_steyr" model="flota.impresora.model.brand">
+        <field name="name">Steyr</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_steyr-image.png"/>
+    </record>
+    <record id="brand_subaru" model="flota.impresora.model.brand">
+        <field name="name">Subaru</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_subaru-image.png"/>
+    </record>
+    <record id="brand_tesla_motors" model="flota.impresora.model.brand">
+        <field name="name">Tesla Motors</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_tesla-motors-image.png"/>
+    </record>
+    <record id="brand_toyota" model="flota.impresora.model.brand">
+        <field name="name">Toyota</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_toyota-image.png"/>
+    </record>
+    <record id="brand_trabant" model="flota.impresora.model.brand">
+        <field name="name">Trabant</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_trabant-image.png"/>
+    </record>
+    <record id="brand_volkswagen" model="flota.impresora.model.brand">
+        <field name="name">Volkswagen</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_volkswagen-image.png"/>
+    </record>
+    <record id="brand_volvo" model="flota.impresora.model.brand">
+        <field name="name">Volvo</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_volvo-image.png"/>
+    </record>
+    <record id="brand_willys" model="flota.impresora.model.brand">
+        <field name="name">Willys</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_willys-image.png"/>
+    </record>
+    <record id="brand_suzuki" model="flota.impresora.model.brand">
+        <field name="name">Suzuki</field>
+        <field name="image_128" type="base64" file="flota/static/img/brand_suzuki-image.png"/>
+    </record>
+</odoo>

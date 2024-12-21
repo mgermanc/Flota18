@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<odoo>
+     <record id='flota_man_rep_view_tree' model='ir.ui.view'>
+        <field name="name">flota.man.rep.list</field>
+        <field name="model">flota.man.rep</field>
+        <field name="arch" type="xml">
+            <list string="Relacion de campos" editable="top">
+                <field name="name" />
+                <field name="impresora_id" />
+                <field name="product_id" />
+                <field name="maintenance_id" />
+                <field name="partner_id" />
+            </list>
+        </field>
+    </record>
+
+
+
+    <record id='flota_man_rep_view_search' model='ir.ui.view'>
+        <field name="name">flota.man.rep.search</field>
+        <field name="model">flota.man.rep</field>
+        <field name="arch" type="xml">
+            <search string="Impresoras reps" >
+                <field name="name" />
+                <field name="impresora_id" />
+                <field name="product_id" />
+                <field name="maintenance_id" />
+                <field name="partner_id" />
+                <group expand="0" string="Group By">
+                    <filter name="groupby_man_rep" context="{'group_by': 'name'}" string="Relacion"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+
+
+    <record id='flota_man_rep_action' model='ir.actions.act_window'>
+        <field name="name">Relaciones</field>
+        <field name="res_model">flota.man.rep</field>
+        <field name="view_mode">list,form</field>
+        <field name="context"></field>
+        <field name="help" type="html">
+          <p class="o_view_nocontent_smiling_face">
+            Create a new relacion entre articulos
+          </p><p>
+            You can add various rep entries for all mans.
+          </p>
+        </field>
+    </record>
+
+    <menuitem action="flota_man_rep_action" parent="flota_impresoras" id="flota_man_rep_menu" groups="flota_group_user" sequence="20"/>
+</odoo>

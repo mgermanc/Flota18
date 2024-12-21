@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- views/printeradmin_inherit_views.xml -->
+<odoo>
+    <!-- Herencia de la vista de formulario de maintenance.request -->
+    <record id="view_maintenance_request_form_inherit" model="ir.ui.view">
+        <field name="name">maintenance.request.form.inherit</field>
+        <field name="model">maintenance.request</field>
+        <field name="inherit_id" ref="maintenance.hr_equipment_request_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+
+                <field name="printeradmin_id" string="Impresora"/>
+                <field name="partner_id" string="Propietario"/>
+            </xpath>
+            <xpath expr="//field[@name='maintenance_type']" position="after">
+
+                <field name="repair_id" string="Reparacion" readonli="TRUE"/>
+
+            </xpath>
+
+
+        </field>
+    </record>
+
+    <record id="view_maintenance_request_kanban_inherit" model="ir.ui.view">
+        <field name="name">maintenance.request.kanban.inherit</field>
+        <field name="model">maintenance.request</field>
+        <field name="inherit_id" ref="maintenance.hr_equipment_request_view_kanban"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='activity_ids']" position="after" >
+
+                <button type="object"
+                            name="action_create_repair_order"
+                        string="Reparar" class="btn-primary"
+                        invisible="archive"/>
+
+
+
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Herencia de la vista de formulario de repair.order -->
+    <record id="view_repair_order_form" model="ir.ui.view">
+        <field name="name">repair.order.form.inherits</field>
+        <field name="model">repair.order</field>
+        <field name="inherit_id" ref="repair.view_repair_order_form"/>
+
+        <field name="arch" type="xml">
+            <field name="user_id" position="after">
+                <field name="printeradmin_id" string="Impresora:" />
+                <field name="flota_service_type_id" string="Tipo Servicio:" />
+                <field name="maintenance_id" string="Pedido" readonli="TRUE"/>
+                <field name="log_service_id" string="Log Service"/>
+            </field>
+        </field>
+    </record>
+
+
+</odoo>

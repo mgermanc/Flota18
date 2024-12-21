@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<odoo>
+        <record id="module_flota_category" model="ir.module.category">
+            <field name="name">Flota</field>
+            <field name="sequence">17</field>
+        </record>
+        <record id="flota_group_user" model="res.groups">
+            <field name="name">Officer: Manage all impresoras</field>
+            <field name="category_id" ref="base.module_category_human_resources_flota"/>
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+        <record id="flota_group_manager" model="res.groups">
+            <field name="name">Administrator</field>
+            <field name="implied_ids" eval="[(4, ref('flota_group_user'))]"/>
+            <field name="category_id" ref="base.module_category_human_resources_flota"/>
+            <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
+        </record>
+
+    <data noupdate="1">
+        <record id="base.default_user" model="res.users">
+            <field name="groups_id" eval="[(4,ref('flota.flota_group_manager'))]"/>
+        </record>
+        <record id="flota_rule_contract_visibility_user" model="ir.rule">
+            <field name="name">User can only see his/her contracts</field>
+            <field name="model_id" ref="model_flota_impresora_log_contract"/>
+            <field name="groups" eval="[(4, ref('flota_group_user'))]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_unlink" eval="False"/>
+            <field name="domain_force">[('impresora_id.driver_id','=',user.partner_id.id)]</field>
+        </record>
+        <record id="flota_rule_service_visibility_user" model="ir.rule">
+            <field name="name">User can only see his/her impresora's services</field>
+            <field name="model_id" ref="model_flota_impresora_log_services"/>
+            <field name="groups" eval="[(4, ref('flota_group_user'))]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_unlink" eval="False"/>
+            <field name="domain_force">[('impresora_id.driver_id','=',user.partner_id.id)]</field>
+        </record>
+        <record id="flota_rule_odometer_visibility_user" model="ir.rule">
+            <field name="name">User can only see his/her impresora's odometer</field>
+            <field name="model_id" ref="model_flota_impresora_odometer"/>
+            <field name="groups" eval="[(4, ref('flota_group_user'))]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_unlink" eval="True"/>
+            <field name="domain_force">[('impresora_id.driver_id','=',user.partner_id.id)]</field>
+        </record>
+
+        <record id="flota_rule_impresora_visibility_user" model="ir.rule">
+            <field name="name">User can only see his/her impresora</field>
+            <field name="model_id" ref="model_flota_impresora"/>
+            <field name="groups" eval="[(4, ref('flota_group_user'))]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_unlink" eval="False"/>
+
+        </record>
+        <record id="flota_rule_contract_visibility_manager" model="ir.rule">
+            <field name="name">Administrator has all rights on impresora's contracts</field>
+            <field name="model_id" ref="model_flota_impresora_log_contract"/>
+            <field name="groups" eval="[Command.link(ref('flota_group_manager'))]"/>
+        </record>
+        <record id="flota_rule_service_visibility_manager" model="ir.rule">
+            <field name="name">Administrator has all rights on impresora's services</field>
+            <field name="model_id" ref="model_flota_impresora_log_services"/>
+            <field name="groups" eval="[Command.link(ref('flota_group_manager'))]"/>
+        </record>
+        <record id="flota_rule_odometer_visibility_manager" model="ir.rule">
+            <field name="name">Administrator has all rights on impresora's impresora's odometer</field>
+            <field name="model_id" ref="model_flota_impresora_odometer"/>
+            <field name="groups" eval="[Command.link(ref('flota_group_manager'))]"/>
+        </record>
+
+
+        <record id="flota_rule_impresora_visibility_manager" model="ir.rule">
+            <field name="name">Administrator has all rights on impresora</field>
+            <field name="model_id" ref="model_flota_impresora"/>
+            <field name="groups" eval="[Command.link(ref('flota_group_manager'))]"/>
+        </record>
+        <record id="ir_rule_flota_impresora" model="ir.rule">
+            <field name="name">Flota impresora: Multi Company</field>
+            <field name="model_id" ref="model_flota_impresora"/>
+            <field name="domain_force">[('company_id', 'in', company_ids + [False])]</field>
+        </record>
+
+        <record id="ir_rule_flota_impresora_log_contract" model="ir.rule">
+            <field name="name">Flota impresora log contract: Multi Company</field>
+            <field name="model_id" ref="model_flota_impresora_log_contract"/>
+            <field name="domain_force">[('company_id', 'in', company_ids + [False])]</field>
+        </record>
+        <record id="ir_rule_flota_report" model="ir.rule">
+            <field name="name">Costs Analysis: Multi Company</field>
+            <field name="model_id" ref="model_flota_impresora_cost_report"/>
+            <field name="domain_force">[('company_id', 'in', company_ids + [False])]</field>
+        </record>
+        <record id="ir_rule_flota_odometer" model="ir.rule">
+            <field name="name">Flota odometer: Multi Company</field>
+            <field name="model_id" ref="model_flota_impresora_odometer"/>
+            <field name="global" eval="True"/>
+            <field name="domain_force">[('impresora_id.company_id', 'in', company_ids + [False])]</field>
+        </record>
+
+        <record id="ir_rule_flota_log_services" model="ir.rule">
+            <field name="name">Flota log services: Multi Company</field>
+            <field name="model_id" ref="model_flota_impresora_log_services"/>
+            <field name="global" eval="True"/>
+            <field name="domain_force">[('company_id', 'in', company_ids + [False])]</field>
+        </record>
+    </data>
+</odoo>

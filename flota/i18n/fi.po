@@ -1,0 +1,2695 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* flota
+# 
+# Translators:
+# Tiffany Chang, 2024
+# Miku Laitinen <miku.laitinen@gmail.com>, 2024
+# Jenni Heikkilä <jenni.heikkila@sv-oy.fi>, 2024
+# Eino Mäkitalo <eino.makitalo@netitbe.fi>, 2024
+# Anni Saarelainen, 2024
+# Mikko Salmela <salmemik@gmail.com>, 2024
+# Timo Koukkari <ti.ko@netikka.fi>, 2024
+# Konsta Aavaranta, 2024
+# Svante Suominen <svante.suominen@web-veistamo.fi>, 2024
+# Veikko Väätäjä <veikko.vaataja@gmail.com>, 2024
+# Mikko Virtanen <mikko.virtanen2013@gmail.com>, 2024
+# Johanna Valkonen <miujohanna@gmail.com>, 2024
+# Tommi Rintala <tommi.rintala@gmail.com>, 2024
+# Kari Lindgren <karisatu@gmail.com>, 2024
+# Simo Suurla <simo@suurla.fi>, 2024
+# Kari Lindgren <kari.lindgren@emsystems.fi>, 2024
+# Martin Trigaux, 2024
+# Jukka Paulin <jukka.paulin@gmail.com>, 2024
+# Sari Mäyrä <sari.mayra@sv-oy.fi>, 2024
+# Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2024
+# Jussi Lehto <jussi@gulfeo.com>, 2024
+# Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2024
+# Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-25 08:39+0000\n"
+"PO-Revision-Date: 2024-09-25 09:41+0000\n"
+"Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2024\n"
+"Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_kanban
+msgid "<i class=\"fa fa-map-marker\" title=\"Location\"/>"
+msgstr "<i class=\"fa fa-map-marker\" title=\"Sijainti\"/>"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+msgid ""
+"<span class=\"o_stat_value\">New</span>\n"
+"                                <span class=\"o_stat_text\">Impresora</span>"
+msgstr ""
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.res_config_settings_view_form
+msgid "<span> days before the end date</span>"
+msgstr "<span> päivää ennen päättymispäivää</span>"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.res_config_settings_view_form
+msgid "<span>Send an alert </span>"
+msgstr "<span>Lähetä hälytys </span>"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "<span>cm</span>"
+msgstr "<span>cm</span>"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "<span>g/km</span>"
+msgstr "<span>g/km</span>"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "<span>kW</span>"
+msgstr "<span>kW</span>"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "<span>km</span>"
+msgstr ""
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_1
+msgid "A/C Compressor Replacement"
+msgstr "Ilmastoinnin kompressorin vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_2
+msgid "A/C Condenser Replacement"
+msgstr "Ilmastoinnin lauhduttimen vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_3
+msgid "A/C Diagnosis"
+msgstr "Ilmastoinnin diagnoosi"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_4
+msgid "A/C Evaporator Replacement"
+msgstr "Ilmastoinnin haihduttimen vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_5
+msgid "A/C Recharge"
+msgstr "Ilmastoinnin lataus"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__message_needaction
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__message_needaction
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__message_needaction
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__message_needaction
+msgid "Action Needed"
+msgstr "Vaatii toimenpiteitä"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_form
+msgid "Activation Cost"
+msgstr "Aktivoinnin hinta"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__active
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__active
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__active
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__active
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__active
+msgid "Active"
+msgstr "Aktiivinen"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_ids
+msgid "Activities"
+msgstr "Toimenpiteet"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_exception_decoration
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_exception_decoration
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_exception_decoration
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Toimenpiteen poikkeuksen tyyli"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_state
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_state
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_state
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_state
+msgid "Activity State"
+msgstr "Toimenpiteen tila"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_type_icon
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_type_icon
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_type_icon
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Toimenpiteen ikoni"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.mail_activity_type_action_config_flota
+#: model:ir.ui.menu,name:flota.flota_menu_config_activity_type
+msgid "Activity Types"
+msgstr "Toimenpiteiden tyypit"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_tag_action
+msgid "Add a new tag"
+msgstr "Lisää uusi tunniste"
+
+#. module: flota
+#: model:res.groups,name:flota.flota_group_manager
+msgid "Administrator"
+msgstr "Ylläpitäjä"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_6
+msgid "Air Filter Replacement"
+msgstr "Ilmansuodattimen vaihto"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "All impresoras"
+msgstr "Kaikki ajoneuvot"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Apply New Driver"
+msgstr "Käytä uutta kuljettajaa"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_kanban
+msgid "Archive"
+msgstr "Arkistoi"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Archived"
+msgstr "Arkistoitu"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__next_assignation_date
+msgid "Assignment Date"
+msgstr "Toimeksiannon päivämäärä"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__log_drivers
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_assignation_log_view_list
+msgid "Assignment Logs"
+msgstr "Tehtävälokit"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_8
+msgid "Assistance"
+msgstr "Tuki"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__message_attachment_count
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__message_attachment_count
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__message_attachment_count
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__message_attachment_count
+msgid "Attachment Count"
+msgstr "Liitteiden määrä"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__attachment_ids
+msgid "Attachments"
+msgstr "Liitteet"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_kanban
+msgid "Attention: renewal overdue"
+msgstr "Huomio: uusiminen myöhässä"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__author_id
+msgid "Author"
+msgstr "Tekijä"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__transmission__automatic
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__transmission__automatic
+msgid "Automatic"
+msgstr "Automaattinen"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Available"
+msgstr "Saatavilla"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__avatar_1920
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__avatar_1920
+msgid "Avatar"
+msgstr "Avatar"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__avatar_1024
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__avatar_1024
+msgid "Avatar 1024"
+msgstr "Avatar 1024"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__avatar_128
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__avatar_128
+msgid "Avatar 128"
+msgstr "Avatar 128"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__avatar_256
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__avatar_256
+msgid "Avatar 256"
+msgstr "Avatar 256"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__avatar_512
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__avatar_512
+msgid "Avatar 512"
+msgstr "Avatar 512"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_7
+msgid "Ball Joint Replacement"
+msgstr "Pallonivelen vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_9
+msgid "Battery Inspection"
+msgstr "Akun tarkastus"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_10
+msgid "Battery Replacement"
+msgstr "Akun vaihto"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_cost_report__impresora_type__bike
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__impresora_type__bike
+msgid "Bike"
+msgstr "Pyörä"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__frame_type
+msgid "Bike Frame Type"
+msgstr "Pyörän rungon tyyppi"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Bikes"
+msgstr "Pyörät"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__body_has_template_value
+msgid "Body content is the same as the template"
+msgstr "Rungon sisältö on sama kuin mallissa"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_11
+msgid "Brake Caliper Replacement"
+msgstr "Jarrusatulan vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_12
+msgid "Brake Inspection"
+msgstr "Jarrujen tarkastus"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_13
+msgid "Brake Pad(s) Replacement"
+msgstr "Jarrupalan (palojen) vaihto"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__brand_id
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Brand"
+msgstr "Merkki"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_model_brand
+msgid "Brand of the impresora"
+msgstr "Ajoneuvon merkki"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__fuel_type__cng
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__default_fuel_type__cng
+msgid "CNG"
+msgstr "CNG"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__co2
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__default_co2
+msgid "CO2 Emissions"
+msgstr "CO2-päästöt"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_tree
+msgid "CO2 Emissions g/km"
+msgstr "CO2-päästöt g/km"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__co2_standard
+msgid "CO2 Standard"
+msgstr "CO2-standardi"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__co2
+msgid "CO2 emissions of the impresora"
+msgstr "Ajoneuvon CO2-päästöt"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_1
+msgid "Calculation Benefit In Kind"
+msgstr "Laskelma luontaisedusta"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__can_edit_body
+msgid "Can Edit Body"
+msgstr "Voi muokata runkoa"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_send_mail_view_form
+msgid "Cancel"
+msgstr "Peruuta"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__write_off_date
+msgid "Cancellation Date"
+msgstr "Peruutuksen päivämäärä"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_contract__state__closed
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_services__state__cancelled
+msgid "Cancelled"
+msgstr "Peruttu"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_cost_report__impresora_type__car
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__impresora_type__car
+msgid "Car"
+msgstr "Auto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_14
+msgid "Car Wash"
+msgstr "Autopesu"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Cars"
+msgstr "Autot"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__car_value
+msgid "Catalog Value (VAT Incl.)"
+msgstr "Luettelon arvo (sis. ALV)"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_15
+msgid "Catalytic Converter Replacement"
+msgstr "Katalysaattorin vaihto"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_impresora_model_category_action
+#: model:ir.ui.menu,name:flota.flota_impresora_model_category_menu
+msgid "Categories"
+msgstr "Tuoteryhmä(t)"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_model_category_action
+msgid ""
+"Categories will help you manage your flota more efficiently and arrange your"
+" impresoras."
+msgstr ""
+"Luokat auttavat hallinnoimaan kalustoasi tehokkaammin ja järjestämään "
+"ajoneuvosi."
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_service_type__category
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__category_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__category_id
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_search
+msgid "Category"
+msgstr "Kategoria"
+
+#. module: flota
+#: model:ir.model.constraint,message:flota.constraint_flota_impresora_model_category_name_uniq
+msgid "Category name must be unique"
+msgstr "Luokan nimen on oltava yksilöllinen"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_model_category
+msgid "Category of the model"
+msgstr "Mallin luokka"
+
+#. module: flota
+#: model:mail.message.subtype,description:flota.mt_flota_driver_updated
+#: model:mail.message.subtype,name:flota.mt_flota_driver_updated
+msgid "Changed Driver"
+msgstr "Vaihtunut kuljettaja"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_16
+msgid "Charging System Diagnosis"
+msgstr "Latausjärjestelmän diagnoosi"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__vin_sn
+msgid "Chassis Number"
+msgstr "Alustan numero"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__state
+msgid "Choose whether the contract is still valid or not"
+msgstr "Valitse, onko sopimus edelleen voimassa vai ei"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_service_type__category
+msgid ""
+"Choose whether the service refer to contracts, impresora services or both"
+msgstr "Valitse, koskeeko palvelu sopimuksia, ajoneuvopalveluja vai molempia"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__contract_state__closed
+msgid "Closed"
+msgstr "Suljettu"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__co2_standard
+msgid "Co2 Standard"
+msgstr "CO2 standardi"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__color
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__color
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_tag__color
+msgid "Color"
+msgstr "Väri"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__color
+msgid "Color of the impresora"
+msgstr "Ajoneuvon väri"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_send_mail_view_form
+msgid "Communication about your impresora."
+msgstr ""
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__company_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__company_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__company_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__company_id
+msgid "Company"
+msgstr "Yritys"
+
+#. module: flota
+#: model:ir.model,name:flota.model_res_config_settings
+msgid "Config Settings"
+msgstr "Asetukset"
+
+#. module: flota
+#: model:ir.ui.menu,name:flota.flota_configuration
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_kanban
+msgid "Configuration"
+msgstr "Asetukset"
+
+#. module: flota
+#: model:ir.model,name:flota.model_res_partner
+msgid "Contact"
+msgstr "Kontakti"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_search
+msgid "Contains Impresora"
+msgstr "Sisältää ajoneuvon"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__body
+msgid "Contents"
+msgstr "Sisältö"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_service_type__category__contract
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_cost_report__cost_type__contract
+#: model_terms:ir.ui.view,arch_db:flota.flota_costs_report_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Contract"
+msgstr "Sopimus"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_graph
+msgid "Contract Costs Per Month"
+msgstr "Kuukausittaiset sopimuskulut"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__contract_count
+msgid "Contract Count"
+msgstr "Sopimusten määrä"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__expiration_date
+msgid "Contract Expiration Date"
+msgstr "Sopimuksen päättymispäivä"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__start_date
+msgid "Contract Start Date"
+msgstr "Sopimuksen alkamispäivä"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_tree
+msgid "Contract logs"
+msgstr "Sopimuksen lokit"
+
+#. module: flota
+#: model:mail.activity.type,name:flota.mail_act_flota_contract_to_renew
+msgid "Contract to Renew"
+msgstr "Uusittava sopimus"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_kanban
+msgid "Contract(s)"
+msgstr "Sopimukset"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_impresora_log_contract_action
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__log_contracts
+#: model:ir.ui.menu,name:flota.flota_impresora_log_contract_menu
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Contracts"
+msgstr "Sopimukset"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__cost
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__amount
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__amount
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_form
+msgid "Cost"
+msgstr "Kustannushinta"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__cost_type
+msgid "Cost Type"
+msgstr "Kulun tyyppi"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_form
+msgid "Cost that is paid only once at the creation of the contract"
+msgstr "Kulu joka maksetaan vain kerran sopimusta luodessa"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__cost_subtype_id
+msgid "Cost type purchased with this cost"
+msgstr "Tällä kustannuksella ostettu kustannuslaji"
+
+#. module: flota
+#: model:ir.ui.menu,name:flota.menu_flota_reporting_costs
+msgid "Costs"
+msgstr "Kulut"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_costs_reporting_action
+msgid "Costs Analysis"
+msgstr "Kuluanalyysi"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__country_id
+msgid "Country"
+msgstr "Maa"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__country_code
+msgid "Country Code"
+msgstr "Maatunnus"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_model_category_action
+msgid "Create a new category"
+msgstr "Luo uusi kategoria"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_log_contract_action
+msgid "Create a new contract"
+msgstr "Luo uusi sopimus"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_model_brand_action
+msgid "Create a new manufacturer"
+msgstr "Luo uusi valmistaja"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_model_action
+msgid "Create a new model"
+msgstr "Luo uusi malli"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_odometer_action
+msgid "Create a new odometer log"
+msgstr "Luo uusi matkamittariloki"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_log_services_action
+msgid "Create a new service entry"
+msgstr "Luo uusi palvelumerkintä"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_service_types_action
+msgid "Create a new type of service"
+msgstr "Luo uusi palvelutyyppi"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_state_action
+msgid "Create a new impresora status"
+msgstr "Luo uusi ajoneuvon tila"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_service_type__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_category__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_state__create_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_tag__create_uid
+msgid "Created by"
+msgstr "Luonut"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_service_type__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_category__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_state__create_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_tag__create_date
+msgid "Created on"
+msgstr "Luotu"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__currency_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__currency_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__currency_id
+msgid "Currency"
+msgstr "Valuutta"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_assignation_log_view_list
+msgid "Current Driver"
+msgstr "Tämänhetkinen kuljettaja"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__state_id
+msgid "Current state of the impresora"
+msgstr "Ajoneuvon nykyinen tila"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_contract__cost_frequency__daily
+msgid "Daily"
+msgstr "Päivittäin"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__date_start
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__date
+msgid "Date"
+msgstr "Päivämäärä"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__acquisition_date
+msgid "Date of impresora registration"
+msgstr "Ajoneuvon rekisteröintipäivä"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__date
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__date
+msgid "Date when the cost has been executed"
+msgstr "Päivämäärä jolloin kulu on tapahtunut"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__start_date
+msgid "Date when the coverage of the contract begins"
+msgstr "Päivämäärä jolloin sopimuksen voimassaolo alkaa"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__expiration_date
+msgid ""
+"Date when the coverage of the contract expirates (by default, one year after"
+" begin date)"
+msgstr ""
+"Päivä jolloin sopimuksen voimassaolo päättyy (oletuksena vuosi alkupäivästä)"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__write_off_date
+msgid "Date when the impresora's license plate has been cancelled/removed."
+msgstr "Päivämäärä, jolloin ajoneuvon rekisterikilpi on peruutettu/poistettu."
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_res_config_settings__delay_alert_contract
+msgid "Delay alert contract outdated"
+msgstr "Viivästysvaroitussopimus vanhentunut"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_kanban
+msgid "Delete"
+msgstr "Poista"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_2
+msgid "Depreciation and Interests"
+msgstr "Arvon aleneminen ja korot"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__description
+msgid "Description"
+msgstr "Kuvaus"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__frame_type__diamant
+msgid "Diamant"
+msgstr "Timantti"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__fuel_type__diesel
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__default_fuel_type__diesel
+msgid "Diesel"
+msgstr "Diesel"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_service_type__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_category__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_state__display_name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_tag__display_name
+msgid "Display Name"
+msgstr "Näyttönimi"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_services__state__done
+msgid "Done"
+msgstr "Valmis"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_17
+msgid "Door Window Motor/Regulator Replacement"
+msgstr "Ovien ikkunan moottorin tai säätimen vaihto"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__doors
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__doors
+msgid "Doors Number"
+msgstr "Ovien lukumäärä"
+
+#. module: flota
+#: model:flota.impresora.state,name:flota.flota_impresora_state_downgraded
+msgid "Downgraded"
+msgstr "Alennettu"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__driver_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__driver_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__driver_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__purchaser_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__purchaser_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__driver_id
+#: model_terms:ir.ui.view,arch_db:flota.flota_costs_report_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Driver"
+msgstr "Kuljettaja"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__driver_id
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__purchaser_id
+#: model:ir.model.fields,help:flota.field_flota_impresora_odometer__driver_id
+msgid "Driver address of the impresora"
+msgstr "Ajoneuvon kuljettajan osoite"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Drivers"
+msgstr "Kuljettajat"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Drivers History"
+msgstr "Kuljettajien historia"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__history_count
+msgid "Drivers History Count"
+msgstr "Kuljettajien historian määrä"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_assignation_log
+msgid "Drivers history on a impresora"
+msgstr "Ajoneuvon kuljettajahistoria"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_log_contract_action
+msgid ""
+"Each contract (e.g.: leasing) may include several services\n"
+"            (reparation, insurances, periodic maintenance)."
+msgstr ""
+"Kukin sopimus (esim. leasing) voi sisältää useita palveluja\n"
+"            (korjaukset, vakuutukset, määräaikaishuollot)."
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_service_types_action
+msgid "Each service can used in contracts, as a standalone service or both."
+msgstr ""
+"Kutakin palvelua voidaan käyttää sopimuksissa, itsenäisenä palveluna tai "
+"molempina."
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__fuel_type__electric
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__default_fuel_type__electric
+msgid "Electric"
+msgstr "Sähkö"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__electric_assistance
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__electric_assistance
+msgid "Electric Assistance"
+msgstr "Sähköinen apu"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_16
+msgid "Emissions"
+msgstr "Päästöt"
+
+#. module: flota
+#: model:flota.impresora.tag,name:flota.impresora_tag_leasing
+msgid "Employee Car"
+msgstr "Työntekijän auto"
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/models/flota_impresora_log_services.py:0
+msgid "Emptying the odometer value of a impresora is not allowed."
+msgstr "Matkamittarin nollaus ajoneuvossa ei ole sallittu."
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__date_end
+msgid "End Date"
+msgstr "Päättymispäivä"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.res_config_settings_view_form
+msgid "End Date Contract Alert"
+msgstr "Sopimuksen loppupäivämäärän hälytys"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Engine"
+msgstr "Moottori"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_18
+msgid "Engine Belt Inspection"
+msgstr "Laturin hihnan tarkistus"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_19
+msgid "Engine Coolant Replacement"
+msgstr "Moottorin jäähdytysnesteen vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_20
+msgid "Engine/Drive Belt(s) Replacement"
+msgstr "Moottorin jakohihnan vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_12
+msgid "Entry into service tax"
+msgstr "Palveluverotuksen aloittaminen"
+
+#. module: flota
+#. odoo-javascript
+#: code:addons/flota/static/src/js/flota_form.js:0
+msgid ""
+"Every service and contract of this impresora will be considered as archived. "
+"Are you sure that you want to archive this record?"
+msgstr ""
+"Jokainen tämän ajoneuvon huolto ja sopimus katsotaan arkistoiduksi. Oletko "
+"varma, että haluat arkistoida tämän tietueen?"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_21
+msgid "Exhaust Manifold Replacement"
+msgstr "Pakosarjan vaihto"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__contract_state__expired
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_contract__state__expired
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+msgid "Expired"
+msgstr "Vanhentunut"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__expires_today
+msgid "Expires Today"
+msgstr "Vanhentuu tänään"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__first_contract_date
+msgid "First Contract Date"
+msgstr "Ensimmäinen sopimuspäivä"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Fiscality"
+msgstr "Verotus"
+
+#. module: flota
+#: model:ir.module.category,name:flota.module_flota_category
+#: model:ir.ui.menu,name:flota.flota_impresora_menu
+#: model:ir.ui.menu,name:flota.flota_impresoras
+#: model:ir.ui.menu,name:flota.menu_root
+#: model_terms:ir.ui.view,arch_db:flota.res_config_settings_view_form
+msgid "Flota"
+msgstr "Kuljetuskalusto"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_cost_report
+msgid "Flota Analysis Report"
+msgstr "Myyntianalyysi"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_costs_report_view_graph
+#: model_terms:ir.ui.view,arch_db:flota.flota_costs_report_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_vechicle_costs_report_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_vechicle_costs_report_view_tree
+msgid "Flota Costs Analysis"
+msgstr "Kalustokustannusten analyysi"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.res_config_settings_view_form
+msgid "Flota Management"
+msgstr "Kalustonhallinta"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__manager_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__manager_id
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_search
+msgid "Flota Manager"
+msgstr "Kalustoesimies"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_service_type
+msgid "Flota Service Type"
+msgstr "Kaluston palvelutyyppi"
+
+#. module: flota
+#: model:ir.actions.server,name:flota.ir_cron_contract_costs_generator_ir_actions_server
+msgid "Flota: Generate contracts costs based on costs frequency"
+msgstr "Kalusto: Luo sopimuskustannukset kustannustiheyden perusteella"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__message_follower_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__message_follower_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__message_follower_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__message_follower_ids
+msgid "Followers"
+msgstr "Seuraajat"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__message_partner_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__message_partner_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__message_partner_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seuraajat (kumppanit)"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__activity_type_icon
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__activity_type_icon
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__activity_type_icon
+#: model:ir.model.fields,help:flota.field_flota_impresora_model__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Font awesome -ikoni esim.. fa-tasks"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__frame_size
+msgid "Frame Size"
+msgstr "Kehyksen koko"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__fuel_type
+msgid "Fuel"
+msgstr "Polttoaine"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_22
+msgid "Fuel Injector Replacement"
+msgstr "Polttoaineen suuttimen vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_23
+msgid "Fuel Pump Replacement"
+msgstr "Polttoainepumpun vaihto"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__fuel_type
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__default_fuel_type
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Fuel Type"
+msgstr "Polttoaineen tyyppi"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__fuel_type__full_hybrid
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__default_fuel_type__full_hybrid
+msgid "Full Hybrid"
+msgstr "Täysi hybridi"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Future Activities"
+msgstr "Tulevat toimenpiteet"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__future_driver_id
+msgid "Future Driver"
+msgstr "Tuleva kuljettaja"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_kanban
+msgid "Future Driver :"
+msgstr "Tuleva kuljettaja :"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__fuel_type__gasoline
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__default_fuel_type__gasoline
+msgid "Gasoline"
+msgstr "Bensiini"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_costs_report_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_odometer_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_service_types_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Group By"
+msgstr "Ryhmittely"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__contract_renewal_overdue
+msgid "Has Contracts Overdue"
+msgstr "Onko sopimukset erääntyneet"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__contract_renewal_due_soon
+msgid "Has Contracts to renew"
+msgstr "On uusittavia sopimuksia"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__has_message
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__has_message
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__has_message
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__has_message
+msgid "Has Message"
+msgstr "Sisältää viestin"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__has_open_contract
+msgid "Has Open Contract"
+msgstr ""
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_24
+msgid "Head Gasket(s) Replacement"
+msgstr "Pään tiivisteen (tiivisteiden) vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_25
+msgid "Heater Blower Motor Replacement"
+msgstr "Lämmittimen puhallinmoottorin vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_26
+msgid "Heater Control Valve Replacement"
+msgstr "Lämmittimen säätöventtiilin vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_27
+msgid "Heater Core Replacement"
+msgstr "Lämmittimen ytimen vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_28
+msgid "Heater Hose Replacement"
+msgstr "Lämmittimen letkun vaihto"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__horsepower
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__horsepower
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__power_unit__horsepower
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__power_unit__horsepower
+msgid "Horsepower"
+msgstr "Hevosvoima"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__horsepower_tax
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__horsepower_tax
+msgid "Horsepower Taxation"
+msgstr "Hevosvoiman verotus"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__fuel_type__hydrogen
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__default_fuel_type__hydrogen
+msgid "Hydrogen"
+msgstr "Vety"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_service_type__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_category__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_state__id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_tag__id
+msgid "ID"
+msgstr "ID"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_exception_icon
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_exception_icon
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_exception_icon
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_exception_icon
+msgid "Icon"
+msgstr "Kuvake"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__activity_exception_icon
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__activity_exception_icon
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__activity_exception_icon
+#: model:ir.model.fields,help:flota.field_flota_impresora_model__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Kuvake joka kertoo poikkeustoiminnosta."
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__message_needaction
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__message_needaction
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__message_needaction
+#: model:ir.model.fields,help:flota.field_flota_impresora_model__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Jos valittu, uudet viestit vaativat huomiotasi."
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__message_has_error
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__message_has_error
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__message_has_error
+#: model:ir.model.fields,help:flota.field_flota_impresora_model__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Jos valittu, joitakin viestejä ei ole toimitettu."
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_29
+msgid "Ignition Coil Replacement"
+msgstr "Sytytyskelan vaihto"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__image_1920
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__image_1920
+msgid "Image"
+msgstr "Kuva"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__image_1024
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__image_1024
+msgid "Image 1024"
+msgstr "Kuva 1024"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__image_128
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__image_128
+msgid "Image 128"
+msgstr "Kuva 128"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__image_256
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__image_256
+msgid "Image 256"
+msgstr "Kuva 256"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__image_512
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__image_512
+msgid "Image 512"
+msgstr "Kuva 512"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__contract_state__open
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+msgid "In Progress"
+msgstr "Käynnissä"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__service_ids
+msgid "Included Services"
+msgstr "Sisältyvät palvelut"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__contract_state__futur
+msgid "Incoming"
+msgstr "Saapuva"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+msgid "Information"
+msgstr "Tiedot"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_30
+msgid "Intake Manifold Gasket Replacement"
+msgstr "Imusarjan tiivisteen vaihto"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__is_mail_template_editor
+msgid "Is Editor"
+msgstr "On muokkaaja"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__message_is_follower
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__message_is_follower
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__message_is_follower
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__message_is_follower
+msgid "Is Follower"
+msgstr "On seuraaja"
+
+#. module: flota
+#: model:flota.impresora.tag,name:flota.impresora_tag_junior
+msgid "Junior"
+msgstr "Junior"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_odometer_view_kanban
+msgid "Km"
+msgstr "Km"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__fuel_type__lpg
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__default_fuel_type__lpg
+msgid "LPG"
+msgstr "LPG"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__lang
+msgid "Language"
+msgstr "Kieli"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__contract_state
+msgid "Last Contract State"
+msgstr "Viimeisin sopimusvaltio"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__odometer
+msgid "Last Odometer"
+msgstr "Viimeisin matkamittari"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_service_type__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_category__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_state__write_uid
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_tag__write_uid
+msgid "Last Updated by"
+msgstr "Viimeksi päivittänyt"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_service_type__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_category__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_state__write_date
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_tag__write_date
+msgid "Last Updated on"
+msgstr "Viimeksi päivitetty"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Late Activities"
+msgstr "Myöhässä olevat toimenpiteet"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_contract_leasing
+msgid "Leasing"
+msgstr "Paikka"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_action
+msgid "Let's create your first impresora."
+msgstr "Luodaan ensimmäinen ajoneuvo."
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__license_plate
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "License Plate"
+msgstr "Rekisterikilpi"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__license_plate
+msgid "License plate number of the impresora (i = plate number for a car)"
+msgstr "Ajoneuvon rekisterikilven numero (i = auton rekisterikilpi)"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_send_mail_view_form
+msgid "Load template"
+msgstr "Lataa malli"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__location
+msgid "Location"
+msgstr "Sijainti"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__location
+msgid "Location of the impresora (garage, ...)"
+msgstr "Ajoneuvon sijainti (autotalli, ...)"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__image_128
+msgid "Logo"
+msgstr "Logo"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_kanban
+msgid "MODELS"
+msgstr "MALLIT"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__template_id
+msgid "Mail Template"
+msgstr "Viestipohja"
+
+#. module: flota
+#: model:ir.actions.server,name:flota.action_flota_impresora_send_mail
+msgid "Mail to Driver"
+msgstr ""
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_log_contract_action
+msgid ""
+"Manage all your contracts (leasing, insurances, etc.) with\n"
+"            their related services, costs. Odoo will automatically warn\n"
+"            you when some contracts have to be renewed."
+msgstr ""
+"Hallitse kaikkia sopimuksiasi (leasing, vakuutukset jne.) osoitteessa\n"
+"            niihin liittyvät palvelut ja kustannukset. Odoo varoittaa automaattisesti\n"
+"            kun jotkin sopimukset on uusittava."
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_costs_reporting_action
+msgid "Manage efficiently your different effective impresoras Costs with Odoo."
+msgstr ""
+"Hallinnoi tehokkaasti erilaisia tehokkaita ajoneuvoja Kustannukset Odoon "
+"avulla."
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_10
+msgid "Management Fee"
+msgstr "Hallinnointimaksu"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__transmission__manual
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__transmission__manual
+msgid "Manual"
+msgstr "Manuaalinen"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__brand_id
+msgid "Manufacturer"
+msgstr "Valmistaja"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_impresora_model_brand_action
+#: model:ir.ui.menu,name:flota.flota_impresora_model_brand_menu
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_search
+msgid "Manufacturers"
+msgstr "Valmistajat"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__message_has_error
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__message_has_error
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__message_has_error
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__message_has_error
+msgid "Message Delivery error"
+msgstr "Ongelma viestin toimituksessa"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__message_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__message_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__message_ids
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__message_ids
+msgid "Messages"
+msgstr "Viestit"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__model_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__model_ids
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Model"
+msgstr "Malli"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_category_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_category_view_tree
+msgid "Model Category"
+msgstr "Mallin luokka"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__model_count
+msgid "Model Count"
+msgstr "Mallin määrä"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_tree
+msgid "Model Make"
+msgstr "Mallin merkki"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__model_year
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__model_year
+msgid "Model Year"
+msgstr "Mallin vuosi"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__name
+msgid "Model name"
+msgstr "Malli"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_model
+msgid "Model of a impresora"
+msgstr "Ajoneuvon malli"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_impresora_model_action
+#: model:ir.ui.menu,name:flota.flota_models_configuration
+#: model:ir.ui.menu,name:flota.flota_impresora_model_menu
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_tree
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_kanban
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_tree
+msgid "Models"
+msgstr "Mallit"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_contract__cost_frequency__monthly
+msgid "Monthly"
+msgstr "Kuukausittain"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__my_activity_date_deadline
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__my_activity_date_deadline
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__my_activity_date_deadline
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Toimenpiteeni määräaika"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_service_type__name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_brand__name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_category__name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__name
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_state__name
+msgid "Name"
+msgstr "Nimi"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Need Action"
+msgstr "Vaatii toimenpiteitä"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_contract__state__futur
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_services__state__new
+msgid "New"
+msgstr "Uusi"
+
+#. module: flota
+#: model:flota.impresora.state,name:flota.flota_impresora_state_new_request
+msgid "New Request"
+msgstr "Uusi pyyntö"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_calendar_event_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_calendar_event_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_calendar_event_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "Seuraavan toimenpiteen kalenterimerkintä"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_date_deadline
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_date_deadline
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_date_deadline
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Seuraavan toimenpiteen eräpäivä"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_summary
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_summary
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_summary
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_summary
+msgid "Next Activity Summary"
+msgstr "Seuraavan toimenpiteen kuvaus"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_type_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_type_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_type_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_type_id
+msgid "Next Activity Type"
+msgstr "Seuraavan toimenpiteen tyyppi"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__future_driver_id
+msgid "Next Driver Address of the impresora"
+msgstr "Seuraavan kuljettajan ajoneuvon osoite"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_contract__cost_frequency__no
+msgid "No"
+msgstr "Ei"
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/models/flota_impresora.py:0
+msgid "No Plate"
+msgstr "Ei rekisterikilpeä"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_costs_reporting_action
+msgid "No data for analysis"
+msgstr "Ei tietoja analyysia varten"
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/models/flota_impresora.py:0
+msgid "No plate"
+msgstr "Ei rekisterikilpeä"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__service_activity__none
+msgid "None"
+msgstr "Ei mitään"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Note"
+msgstr "Muistiinpano"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__notes
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_form
+msgid "Notes"
+msgstr "Muistiinpanot"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__message_needaction_counter
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__message_needaction_counter
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__message_needaction_counter
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Toimenpiteiden määrä"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__doors
+msgid "Number of doors of the impresora"
+msgstr "Ajoneuvon ovien lukumäärä"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__message_has_error_counter
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__message_has_error_counter
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__message_has_error_counter
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__message_has_error_counter
+msgid "Number of errors"
+msgstr "Virheiden määrä"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__message_needaction_counter
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__message_needaction_counter
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__message_needaction_counter
+#: model:ir.model.fields,help:flota.field_flota_impresora_model__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Toimenpiteitä vaativien viestien määrä"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__message_has_error_counter
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__message_has_error_counter
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__message_has_error_counter
+#: model:ir.model.fields,help:flota.field_flota_impresora_model__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Toimitusvirheellisten viestien määrä"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__seats
+msgid "Number of seats of the impresora"
+msgstr "Ajoneuvon istuinten lukumäärä"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__odometer_count
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__odometer_id
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Odometer"
+msgstr "Matkamittari"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_odometer_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_odometer_view_tree
+msgid "Odometer Logs"
+msgstr "Matkamittarin lokit"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__odometer_unit
+msgid "Odometer Unit"
+msgstr "Matkamittarn yksikkö"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__odometer
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__value
+msgid "Odometer Value"
+msgstr "Matkamittarin arvo"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_odometer_view_graph
+msgid "Odometer Values Per Impresora"
+msgstr "Matkamittarin arvot ajoneuvoittain"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_odometer
+msgid "Odometer log for a impresora"
+msgstr "Matkamittarin ajoneuvokohtainen loki"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__odometer
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__odometer
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__odometer_id
+msgid "Odometer measure of the impresora at the moment of this log"
+msgstr "Ajoneuvon matkamittari tämän lokin tekohetkellä"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_impresora_odometer_action
+#: model:ir.ui.menu,name:flota.flota_impresora_odometer_menu
+msgid "Odometers"
+msgstr "Suuntamittarit"
+
+#. module: flota
+#: model:res.groups,name:flota.flota_group_user
+msgid "Officer: Manage all impresoras"
+msgstr "Päällikkö: Hallinnoi kaikkia ajoneuvoja"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_31
+msgid "Oil Change"
+msgstr "Öljynvaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_32
+msgid "Oil Pump Replacement"
+msgstr "Öljypumpun vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_contract_omnium
+msgid "Omnium"
+msgstr "Omnium"
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/models/flota_impresora_model.py:0
+msgid "Operation not supported."
+msgstr "Toiminta ei ole tuettu."
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora_send_mail__lang
+msgid ""
+"Optional translation language (ISO code) to select when sending out an "
+"email. If not set, the english version will be used. This should usually be "
+"a placeholder expression that provides the appropriate language, e.g. {{ "
+"object.partner_id.lang }}."
+msgstr ""
+"Valinnainen käännöskieli (ISO-koodi), joka valitaan sähköpostia "
+"lähetettäessä. Jos sitä ei ole asetettu, käytetään englanninkielistä "
+"versiota. Tämän pitäisi yleensä olla sijoitusilmaus, joka antaa sopivan "
+"kielen, esim. {{ object.partner_id.lang }}."
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_15
+msgid "Options"
+msgstr "Vaihtoehdot"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__order_date
+msgid "Order Date"
+msgstr "Tilauksen pvm"
+
+#. module: flota
+#: model:flota.impresora.state,name:flota.flota_impresora_state_ordered
+msgid "Ordered"
+msgstr "Tilattu"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_33
+msgid "Other Maintenance"
+msgstr "Muu huolto"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__service_activity__overdue
+msgid "Overdue"
+msgstr "Myöhässä"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_34
+msgid "Oxygen Sensor Replacement"
+msgstr "Happianturin vaihto"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__plan_to_change_bike
+#: model:ir.model.fields,field_description:flota.field_res_partner__plan_to_change_bike
+#: model:ir.model.fields,field_description:flota.field_res_users__plan_to_change_bike
+msgid "Plan To Change Bike"
+msgstr "Suunnitelma vaihtaa pyörä"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__plan_to_change_car
+#: model:ir.model.fields,field_description:flota.field_res_partner__plan_to_change_car
+#: model:ir.model.fields,field_description:flota.field_res_users__plan_to_change_car
+msgid "Plan To Change Car"
+msgstr "Suunnitelma vaihtaa autoa"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Planned for Change"
+msgstr "Suunniteltu muutosta varten"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__fuel_type__plug_in_hybrid_diesel
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__default_fuel_type__plug_in_hybrid_diesel
+msgid "Plug-in Hybrid Diesel"
+msgstr "Plug-in-hybrididiesel"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__fuel_type__plug_in_hybrid_gasoline
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__default_fuel_type__plug_in_hybrid_gasoline
+msgid "Plug-in Hybrid Gasoline"
+msgstr "Plug-in-hybridibensiini"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__power
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__power
+msgid "Power"
+msgstr "Voima"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_35
+msgid "Power Steering Hose Replacement"
+msgstr "Ohjaustehostimen letkun vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_36
+msgid "Power Steering Pump Replacement"
+msgstr "Ohjaustehostimen pumpun vaihto"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__power_unit
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__power_unit
+msgid "Power Unit"
+msgstr ""
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__power
+msgid "Power in kW of the impresora"
+msgstr "Ajoneuvon teho kilowatteina"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__impresora_properties
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Properties"
+msgstr "Ominaisuudet"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__net_car_value
+msgid "Purchase Value"
+msgstr "Ostohinta"
+
+#. module: flota
+#: model:flota.impresora.tag,name:flota.impresora_tag_purchased
+msgid "Purchased"
+msgstr "Ostettu"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_37
+msgid "Radiator Repair"
+msgstr "Jäähdyttimen korjaus"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__impresora_range
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__impresora_range
+msgid "Range"
+msgstr "Aikaväli"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_action
+msgid "Ready to manage your flota more efficiently?"
+msgstr "Oletko valmis hallinnoimaan kalustoasi tehokkaammin?"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__cost_generated
+msgid "Recurring Cost"
+msgstr "Toistuvat kustannukset"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__cost_frequency
+msgid "Recurring Cost Frequency"
+msgstr "Toistuvien kustannusten jakso"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__ins_ref
+msgid "Reference"
+msgstr "Viite"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_refueling
+msgid "Refueling"
+msgstr "Tankkaus"
+
+#. module: flota
+#: model:flota.impresora.state,name:flota.flota_impresora_state_registered
+msgid "Registered"
+msgstr "Rekisteröitynyt"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__acquisition_date
+msgid "Registration Date"
+msgstr "Ilmottautumispäivä"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__render_model
+msgid "Rendering Model"
+msgstr "Renderöintimalli"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_11
+msgid "Rent (Excluding VAT)"
+msgstr "Vuokra (ilman arvonlisäveroa)"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_7
+msgid "Repair and maintenance"
+msgstr "Korjaus ja huolto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_contract_repairing
+msgid "Repairing"
+msgstr "Korjaaminen"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_9
+msgid "Replacement Impresora"
+msgstr "Korvaava ajoneuvo"
+
+#. module: flota
+#: model:ir.ui.menu,name:flota.menu_flota_reporting
+msgid "Reporting"
+msgstr "Raportointi"
+
+#. module: flota
+#: model:flota.impresora.state,name:flota.flota_impresora_state_reserve
+msgid "Reserve"
+msgstr "Varaa"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__residual_value
+msgid "Residual Value"
+msgstr "Jäännösarvo"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_14
+msgid "Residual value (Excluding VAT)"
+msgstr "Jäännösarvo (ilman ALV:ia)"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_18
+msgid "Residual value in %"
+msgstr "Jäännösarvo (%)"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__user_id
+msgid "Responsible"
+msgstr "Vastuuhenkilö"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__activity_user_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__activity_user_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__activity_user_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__activity_user_id
+msgid "Responsible User"
+msgstr "Vastuuhenkilö"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_kanban
+msgid "Restore"
+msgstr "Palauta"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_38
+msgid "Resurface Rotors"
+msgstr "Roottoreiden uudelleenpinnoitus"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_39
+msgid "Rotate Tires"
+msgstr "Kierrätä renkaita"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_40
+msgid "Rotor Replacement"
+msgstr "Roottorin vaihto"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_contract__state__open
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_services__state__running
+msgid "Running"
+msgstr "Käynnissä olevat"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_send_mail_view_form
+msgid "Save as new template"
+msgstr "Tallenna uutena mallina"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__seats
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__seats
+msgid "Seats Number"
+msgstr "Istuinten paikka"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_send_mail_view_form
+msgid "Send"
+msgstr "Lähetä"
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/models/flota_impresora.py:0
+msgid "Send Email"
+msgstr "Lähetä sähköposti"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_send_mail
+msgid "Send mails to Drivers"
+msgstr ""
+
+#. module: flota
+#: model:flota.impresora.tag,name:flota.impresora_tag_senior
+msgid "Senior"
+msgstr "Vanhempi"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model_category__sequence
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_state__sequence
+msgid "Sequence"
+msgstr "Järjestys"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_service_type__category__service
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_cost_report__cost_type__service
+#: model_terms:ir.ui.view,arch_db:flota.flota_costs_report_view_search
+msgid "Service"
+msgstr "Palvelu"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__service_activity
+msgid "Service Activity"
+msgstr "Palvelutoiminta"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__service_type_id
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_search
+msgid "Service Type"
+msgstr "Palvelun tyyppi"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_service_types_view_tree
+msgid "Service Types"
+msgstr "Palvelutyypit"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_impresora_log_services_action
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__service_count
+#: model:ir.ui.menu,name:flota.flota_services_configuration
+#: model:ir.ui.menu,name:flota.flota_impresora_log_services_menu
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_activity
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Services"
+msgstr "Palvelut"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_graph
+msgid "Services Costs Per Month"
+msgstr "Palvelujen kustannukset kuukaudessa"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__log_services
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_tree
+msgid "Services Logs"
+msgstr "Palvelujen lokit"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_log_services
+msgid "Services for impresoras"
+msgstr "Ajoneuvoja koskevat palvelut"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_config_settings_action
+#: model:ir.ui.menu,name:flota.flota_config_settings_menu
+msgid "Settings"
+msgstr "Asetukset"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Show all records which has next action date is before today"
+msgstr "Näytä kaikki tietueet joissa on toimenpide myöhässä"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_6
+msgid "Snow tires"
+msgstr "Talvirenkaat"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_41
+msgid "Spark Plug Replacement"
+msgstr "Sytytystulpan vaihto"
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/models/flota_impresora.py:0
+msgid "Specify the End date of %s"
+msgstr "Määritä päättymispäivä %s"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__state
+msgid "Stage"
+msgstr "Vaihe"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__date_start
+msgid "Start Date"
+msgstr "Alkupäivä"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_42
+msgid "Starter Replacement"
+msgstr "Käynnistimen vaihto"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__state_id
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_state_view_tree
+msgid "State"
+msgstr "Alue"
+
+#. module: flota
+#: model:ir.model.constraint,message:flota.constraint_flota_impresora_state_flota_state_name_unique
+msgid "State name already exists"
+msgstr "Tilan nimi on jo olemassa"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_impresora_state_action
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__state
+#: model:ir.ui.menu,name:flota.flota_impresora_state_menu
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Status"
+msgstr "Tila"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__activity_state
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__activity_state
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__activity_state
+#: model:ir.model.fields,help:flota.field_flota_impresora_model__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Tila aktiviteetin perusteella\n"
+"Myöhässä: Eräpäivä on menneisyydessä\n"
+"Tänään: Eräpäivä on tänään\n"
+"Suunniteltu: Tulevaisuudessa."
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__subject
+msgid "Subject"
+msgstr "Aihe"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_vechicle_costs_report_view_tree
+msgid "Sum of Cost"
+msgstr "Kustannusten summa"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_5
+msgid "Summer tires"
+msgstr "Kesärenkaat"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_tag__name
+msgid "Tag Name"
+msgstr "Tunnisteen nimi"
+
+#. module: flota
+#: model:ir.model.constraint,message:flota.constraint_flota_impresora_tag_name_uniq
+msgid "Tag name already exists!"
+msgstr "Tunniste on jo olemassa!"
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_impresora_tag_action
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__tag_ids
+#: model:ir.ui.menu,name:flota.flota_impresora_tag_menu
+msgid "Tags"
+msgstr "Tunnisteet"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Tax Info"
+msgstr "Verotiedot"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_3
+msgid "Tax roll"
+msgstr "Veroluettelo"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__notes
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_form
+msgid "Terms and Conditions"
+msgstr "Toimitusehdot"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+"Kaksikirjaiminen ISO-maaatunnus. \n"
+"Voit hakea tämän kentän avulla nopeasti."
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/wizard/flota_impresora_send_mail.py:0
+msgid "The following impresora drivers are missing an email address: %s."
+msgstr ""
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/models/flota_impresora.py:0
+msgid "The odometer value cannot be lower than the previous one."
+msgstr ""
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_43
+msgid "Thermostat Replacement"
+msgstr "Termostaatin vaihto"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__next_assignation_date
+msgid ""
+"This is the date at which the car will be available, if not set it means "
+"available instantly"
+msgstr ""
+"Tämä on päivämäärä, jolloin auto on saatavilla, jos sitä ei ole asetettu, se"
+" tarkoittaa, että se on saatavilla heti"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_44
+msgid "Tie Rod End Replacement"
+msgstr "Raidetangon pään vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_45
+msgid "Tire Replacement"
+msgstr "Renkaan vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_46
+msgid "Tire Service"
+msgstr "Rengaspalvelu"
+
+#. module: flota
+#: model:flota.impresora.state,name:flota.flota_impresora_state_to_order
+msgid "To Order"
+msgstr "Tilattavat"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__service_activity__today
+msgid "Today"
+msgstr "Tänään"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Today Activities"
+msgstr "Tämän päivän toimenpiteet"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_tree
+msgid "Total"
+msgstr "Yhteensä"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_13
+msgid "Total expenses (Excluding VAT)"
+msgstr "Kulut yhteensä (ilman ALV:ia)"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_service_17
+msgid "Touring Assistance"
+msgstr "Kiertoapu"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_log_services_action
+msgid ""
+"Track all the services done on your impresora.\n"
+"            Services can be of many types: occasional repair, fixed maintenance, etc."
+msgstr ""
+"Seuraa kaikkia ajoneuvollesi tehtyjä huoltoja.\n"
+"            Huoltoja voi olla monenlaisia: satunnaisia korjauksia, kiinteitä huoltoja jne."
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__trailer_hook
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__trailer_hook
+msgid "Trailer Hitch"
+msgstr "Perävaunun vetokoukku"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+msgid "Trailer Hook"
+msgstr "Perävaunun koukku"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__transmission
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__transmission
+msgid "Transmission"
+msgstr "Vaihteisto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_47
+msgid "Transmission Filter Replacement"
+msgstr "Vaihteiston suodattimen vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_48
+msgid "Transmission Fluid Replacement"
+msgstr "Vaihteiston nesteen vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_49
+msgid "Transmission Replacement"
+msgstr "Vaihteiston vaihto"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__frame_type__trapez
+msgid "Trapez"
+msgstr "Trapetsi"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__cost_subtype_id
+msgid "Type"
+msgstr "Tyyppi"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__activity_exception_decoration
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_contract__activity_exception_decoration
+#: model:ir.model.fields,help:flota.field_flota_impresora_log_services__activity_exception_decoration
+#: model:ir.model.fields,help:flota.field_flota_impresora_model__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Poikkeusaktiviteetin tyyppi tietueella."
+
+#. module: flota
+#: model:ir.actions.act_window,name:flota.flota_impresora_service_types_action
+#: model:ir.ui.menu,name:flota.flota_impresora_service_types_menu
+msgid "Types"
+msgstr "Tyypit"
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__vin_sn
+msgid "Unique number written on the impresora motor (VIN/SN number)"
+msgstr "Ajoneuvon moottoriin merkitty yksilöllinen numero (VIN/SN-numero)"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__odometer_unit
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__unit
+msgid "Unit"
+msgstr "Yksikkö"
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/models/flota_impresora_model.py:0
+#: model:ir.model,name:flota.model_flota_impresora
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_assignation_log__impresora_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__impresora_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__impresora_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__impresora_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_odometer__impresora_id
+#: model:ir.ui.menu,name:flota.flota_impresoras_configuration
+#: model_terms:ir.ui.view,arch_db:flota.flota_costs_report_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_odometer_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_search
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_tree
+msgid "Impresora"
+msgstr "Ajoneuvo"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_log_contract
+msgid "Impresora Contract"
+msgstr "Ajoneuvosopimus"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__impresora_count
+msgid "Impresora Count"
+msgstr "Ajoneuvojen määrä"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__description
+msgid "Impresora Description"
+msgstr "Ajoneuvon kuvaus"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+msgid "Impresora Information"
+msgstr "Ajoneuvon tiedot"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__name
+msgid "Impresora Name"
+msgstr "Ajoneuvon nimi"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__impresora_properties_definition
+msgid "Impresora Properties"
+msgstr "Ajoneuvon ominaisuudet"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_state
+msgid "Impresora Status"
+msgstr "Ajoneuvon tila"
+
+#. module: flota
+#: model:ir.model,name:flota.model_flota_impresora_tag
+msgid "Impresora Tag"
+msgstr "Ajoneuvon tunniste"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_tag_view_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_tag_view_view_tree
+msgid "Impresora Tags"
+msgstr "Ajoneuvon tunnisteet"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora__impresora_type
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_cost_report__impresora_type
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__impresora_type
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_search
+msgid "Impresora Type"
+msgstr "Ajoneuvon tyyppi"
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/wizard/flota_impresora_send_mail.py:0
+msgid "Impresora: Mass mail drivers"
+msgstr ""
+
+#. module: flota
+#. odoo-python
+#: code:addons/flota/models/flota_impresora_model.py:0
+#: model:ir.actions.act_window,name:flota.flota_impresora_action
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_send_mail__impresora_ids
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_tree
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_activity
+msgid "Impresoras"
+msgstr "Ajoneuvot"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_activity
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+msgid "Impresoras Contracts"
+msgstr "Ajoneuvojen sopimukset"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_search
+msgid "Impresoras costs"
+msgstr "Ajoneuvojen kulut"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_odometer_view_search
+msgid "Impresoras odometers"
+msgstr "Ajoneuvojen matkamittarit"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__insurer_id
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__vendor_id
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_search
+msgid "Vendor"
+msgstr "Toimittaja"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_services__inv_ref
+msgid "Vendor Reference"
+msgstr "Toimittajan viite"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_model__vendors
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+msgid "Vendors"
+msgstr "Toimittajat"
+
+#. module: flota
+#: model:flota.impresora.state,name:flota.flota_impresora_state_waiting_list
+msgid "Waiting List"
+msgstr "Odotuslista"
+
+#. module: flota
+#: model:ir.model.fields,field_description:flota.field_flota_impresora_log_contract__days_left
+msgid "Warning Date"
+msgstr "Varoituksen päivä"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_kanban
+msgid "Warning: renewal due soon"
+msgstr "Varoitus: uusiminen erääntyy pian"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_50
+msgid "Water Pump Replacement"
+msgstr "Vesipumpun vaihto"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__frame_type__wave
+msgid "Wave"
+msgstr "Aalto"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_contract__cost_frequency__weekly
+msgid "Weekly"
+msgstr "Viikottainen"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_51
+msgid "Wheel Alignment"
+msgstr "Pyörän linjaus"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_52
+msgid "Wheel Bearing Replacement"
+msgstr "Pyöränlaakerin vaihto"
+
+#. module: flota
+#: model:flota.service.type,name:flota.type_service_53
+msgid "Windshield Wiper(s) Replacement"
+msgstr "Tuulilasinpyyhkimien vaihto"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_brand_view_search
+msgid "With Models"
+msgstr "Mallien kanssa"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_contract_view_form
+msgid "Write here all other information relative to this contract"
+msgstr "Kirjoita tähän kaikki muut tähän sopimukseen liittyvät tiedot"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_log_services_view_form
+msgid "Write here any other information related to the service completed."
+msgstr "Kirjoita tähän kaikki muut suoritettuun palveluun liittyvät tiedot."
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "Write here any other information related to this impresora"
+msgstr "Kirjoita tähän kaikki muut tähän ajoneuvoon liittyvät tiedot"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_send_mail_view_form
+msgid "Write your message here..."
+msgstr "Kirjoita viestisi tähän..."
+
+#. module: flota
+#: model:ir.model.fields,help:flota.field_flota_impresora__model_year
+msgid "Year of the model"
+msgstr "Vuosimalli"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_log_contract__cost_frequency__yearly
+msgid "Yearly"
+msgstr "Vuosittainen"
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_odometer_action
+msgid "You can add various odometer entries for all impresoras."
+msgstr "Voit lisätä erilaisia matkamittarimerkintöjä kaikille ajoneuvoille."
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_state_action
+msgid ""
+"You can customize available status to track the evolution of\n"
+"            each impresora. Example: active, being repaired, sold."
+msgstr ""
+"Voit mukauttaa käytettävissä olevaa tilaa seurataksesi kehitystä\n"
+"            kunkin ajoneuvon tilannetta. Esimerkki: aktiivinen, korjattavana, myyty."
+
+#. module: flota
+#: model_terms:ir.actions.act_window,help:flota.flota_impresora_model_action
+msgid "You can define several models (e.g. A3, A4) for each make (Audi)."
+msgstr ""
+"Voit määrittää useita malleja (esim. A3, A4) kullekin merkille (Audi)."
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "e.g. Model S"
+msgstr "esim. Malli S"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "e.g. PAE 326"
+msgstr "esim. PAE 326"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_model_view_form
+msgid "e.g. Tesla"
+msgstr "esim. Tesla"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__power_unit__power
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora_model__power_unit__power
+msgid "kW"
+msgstr ""
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__odometer_unit__kilometers
+msgid "km"
+msgstr "km"
+
+#. module: flota
+#: model:ir.model.fields.selection,name:flota.selection__flota_impresora__odometer_unit__miles
+msgid "mi"
+msgstr "mailia"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "show the contract for this impresora"
+msgstr "näytä ajoneuvoa koskeva sopimus"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "show the odometer logs for this impresora"
+msgstr "näytä ajoneuvon matkamittarin lokitiedot"
+
+#. module: flota
+#: model_terms:ir.ui.view,arch_db:flota.flota_impresora_view_form
+msgid "show the services logs for this impresora"
+msgstr "näytä ajoneuvon huoltolokit"
